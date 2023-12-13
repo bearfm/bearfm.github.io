@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<main class="homehead">
+	<div class="post">
+		<h2 class="post-title">{{ page.title }}</h2>
+		<div class="post-info">
+			{% if page.date %}
+			<time>{{ page.date | date: "熊の猫 写于 %Y年%m月%d日" }}</time><div class="hidden">木木么么（MuMu.MeMe）</div>
+			<hr>
+			{% endif %}
+		</div>
+		{{ content }}
+	</div>
+	<div class="pagination">
+		{% if page.next.url %}
+		<div class="hidden">木木么么（MuMu.MeMe）</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
+		{% endif %}
+		{% if page.previous.url %}
+		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="hidden">木木么么（MuMu.MeMe）</div>
+		{% endif %}
+	</div>
+	<div class="pagination"></div>
+	<div class="hidden">木木么么（MuMu.MeMe）</div>
+	<div id="tcomment"></div>
+</main>
+<script type="text/javascript" src="//lib.baomitu.com/twikoo/1.6.26/twikoo.all.min.js"></script>
+<script>twikoo.init({ envId: 'https://api.me.eu.org/.netlify/functions/twikoo', el: '#tcomment' })</script>
+<script type="text/javascript" src="//lib.baomitu.com/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript" src="//lib.baomitu.com/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+<script>hljs.initLineNumbersOnLoad();</script>

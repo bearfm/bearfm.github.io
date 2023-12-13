@@ -1,0 +1,57 @@
+---
+title: Archive
+permalink: "/archive/"
+layout: default
+---
+
+<main class="homehead">
+<section class="post catalogue">
+<div class="archivemobile">
+  {% for post in site.posts %}
+    {% assign currentMonth = post.date | date: "%B %Y" %}
+    {% assign currentYear = post.date | date: "%Y" %}
+    {% if currentYear != myYear %}
+      <h3>{{ currentYear }}</h3>
+      {% assign myYear = currentYear %}
+    {% endif %}
+    {% if currentMonth != myMonth %}
+      <span><a href="#{{ currentMonth | date: '%B %Y' | slugify }}">{{ currentMonth | date: "%B" }}</a>&nbsp;| </span>
+      {% assign myMonth = currentMonth %}
+    {% endif %}
+  {% endfor %}
+  <hr />
+</div>
+
+<div class="archivedesktop">
+  {% for post in site.posts %}
+    {% assign currentMonth = post.date | date: "%B %Y" %}
+    {% assign currentYear = post.date | date: "%Y" %}
+    {% if currentYear != myYear %}
+      <br /><b>📔 {{ currentYear }}年</b><br />
+      {% assign myYear = currentYear %}
+    {% endif %}
+    {% if currentMonth != myMonth %}
+      <span><a href="#{{ currentMonth | date: '%B %Y' | slugify }}">{{ currentMonth | date: "%m" }}月</a>&nbsp;| </span>
+      {% assign myMonth = currentMonth %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div>
+  {% for post in site.posts %}
+    {% assign currentMonth = post.date | date: "%B %Y" %}
+    {% assign currentYear = post.date | date: "%Y" %}
+    {% if currentYear != myYear %}
+      <h3 id="{{ currentYear | slugify }}">{{ currentYear }}</h3>
+      {% assign myYear = currentYear %}
+    {% endif %}
+    {% if currentMonth != myMonth %}
+      <h4 id="{{ currentMonth | slugify }}" style="margin-left: 0.67em;">{{ currentMonth | date: "%m" }}月</h4>
+      {% assign myMonth = currentMonth %}
+    {% endif %}
+    <p style="margin-left: 2em;"><i class="fa-solid fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} | <a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></p>
+  {% endfor %}
+</div>
+  <p>&nbsp;</p>
+</section>
+</main>

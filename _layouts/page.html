@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main class="homehead">
+	<div class="post">
+		<h2 class="post-title">{{ page.title }}</h2>
+		<div class="post-info"><hr></div>
+		{{ content }}
+	</div>
+	<div class="hidden">木木么么（MuMu.MeMe）</div>
+	<div class="pagination">
+		{% if page.next.url %}
+		<a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+		{% endif %}
+		{% if page.previous.url %}
+		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+		{% endif %}
+	</div>
+</main>
