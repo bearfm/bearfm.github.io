@@ -1,5 +1,5 @@
 ---
-title: 木木么么
+title: 我爱.blog
 timezone: Asia/Shanghai
 collections:
   posts:
@@ -8,13 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 木木么么,mumumeme,mumu.meme,熊の猫,熊的猫,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
+description: 我爱.blog,woai.blog,熊の猫,熊的猫,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
 baseurl: ''
-url: https://mumu.meme
+url: https://woai.blog
 author:
   name: 熊的猫
-  url: https://mumu.meme/about/
-  email: mumumeme@yeah.net
+  url: https://woai.blog/about/
+  email: woaiblog@126.com
 markdown: kramdown
 include:
 - _pages

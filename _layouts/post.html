@@ -2,12 +2,13 @@
 layout: default
 ---
 
+
 <main class="homehead">
 	<div class="post">
 		<h2 class="post-title">{{ page.title }}</h2>
 		<div class="post-info">
 			{% if page.date %}
-			<time>{{ page.date | date: "熊の猫 写于 %Y年%m月%d日" }}</time><div class="hidden">木木么么（MuMu.MeMe）</div>
+			<time>{{ page.date | date: "熊の猫 写于 %Y年%m月%d日" }}</time><div class="hidden">我爱.blog - woai.blog</div>
 			<hr>
 			{% endif %}
 		</div>
@@ -15,14 +16,14 @@ layout: default
 	</div>
 	<div class="pagination">
 		{% if page.next.url %}
-		<div class="hidden">木木么么（MuMu.MeMe）</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
+		<div class="hidden">我爱.blog - woai.blog</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
 		{% endif %}
 		{% if page.previous.url %}
-		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="hidden">木木么么（MuMu.MeMe）</div>
+		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="hidden">我爱.blog - woai.blog</div>
 		{% endif %}
 	</div>
 	<div class="pagination"></div>
-	<div class="hidden">木木么么（MuMu.MeMe）</div>
+	<div class="hidden">我爱.blog - woai.blog</div>
 	<div id="gitalk-container"></div>
 </main>
 <link rel="stylesheet" href="//lib.baomitu.com/gitalk/1.8.0/gitalk.min.css">
