@@ -8,10 +8,10 @@ a{color:inherit;text-decoration:none}
 blockquote{font-family:KaiTi,STKaiti,'Noto Serif SC',serif;padding:.1rem 1rem;margin:auto -1rem;background:#f8f9fa}
 img{display:initial;margin:0 0 1rem;max-width:100%}
 td{vertical-align:top}
-hr{margin:2rem auto;border:none;width:16rem;height:5px;background:url(//public.jstatic.net/files/wave.svg) 0 repeat-x}
+hr{margin:2rem auto;border:none;width:16rem;height:5px;background:url(//china.s3.bitiful.net/files/wave.svg) 0 repeat-x}
 iframe{display:block;margin:0 auto}
 .justify-center{display:flex;justify-content:center}
-.prbr{display:block;border:none;width:16rem;height:5px;background:url("//public.jstatic.net/files/wave.svg") 0 repeat-x}
+.prbr{display:block;border:none;width:16rem;height:5px;background:url("//china.s3.bitiful.net/files/wave.svg") 0 repeat-x}
 .animated{position:fixed;top:0;left:0;right:0;transition:all .3s ease-in-out}
 .animated.slideDown{top:-100px}
 .animated.slideUp{top:0}
@@ -20,7 +20,7 @@ iframe{display:block;margin:0 auto}
 .nav a,#results-container a{text-decoration:none}
 .nav-container,main{display:block;margin:0 auto;max-width:40em;width:95%}
 main{margin-top:5rem}
-.logo{display:block;float:left;background:url('//china.s3.bitiful.net/woailogo.svg') no-repeat;margin-top:13px;width:100px;color:transparent}
+.logo{display:block;float:left;background:url(//china.s3.bitiful.net/woailogo.svg) no-repeat;margin-top:13px;width:100px;height:34px;color:transparent}
 #search-input{display:flex;max-width:512px;margin:0 auto;border:1px solid transparent;border-radius:24px;border-color:rgba(223,225,229,0);box-shadow:0 2px 8px 1px rgb(64 60 67/24%)}
 .arrowing{position:fixed;top:50%;font-size:5rem;font-weight:300;color:#f7f7f7;line-height:1;text-decoration:none;transform:scale(1,2)}
 .pagination{position:relative;text-align:center;padding:2rem 0}
@@ -125,7 +125,7 @@ pre code{color:inherit;font-size:85%;padding:0;margin:0}
 @media (prefers-color-scheme:dark){html,span.pagination_title{background:#3b3d42}
   body,.dropbtn,.catalogue-item{color:#e4e4e4}
   .nav,input,textarea,.archivedesktop{background:#252627}
-  .logo{background:url('//china.s3.bitiful.net/woai-logo.svg') no-repeat}
+  .logo{background:url(//china.s3.bitiful.net/woai-logo.svg) no-repeat}
   .diwen{background-image:linear-gradient(to right,rgba(37,38,39,1),rgba(37,38,39,0))}
   img,.hero.slim{filter:grayscale(30%)}
   blockquote{border-radius:5px;border:0;background-color:#252627;box-shadow:0 1px 2px rgb(0 0 0 / 25%),0 0 1px rgb(0 0 0 / 25%)}
