@@ -20,7 +20,7 @@ iframe{display:block;margin:0 auto}
 .nav a,#results-container a{text-decoration:none}
 .nav-container,main{display:block;margin:0 auto;max-width:40em;width:95%}
 main{margin-top:5rem}
-.logo{display:block;float:left;background:url(//china.s3.bitiful.net/woailogo.svg) no-repeat;margin-top:13px;width:100px;height:34px;color:transparent}
+.logo{display:block;float:left;font-size:0;background:url(//china.s3.bitiful.net/woailogo.svg) no-repeat;margin-top:13px;width:100px;height:34px;color:transparent}
 #search-input{display:flex;max-width:512px;margin:0 auto;border:1px solid transparent;border-radius:24px;border-color:rgba(223,225,229,0);box-shadow:0 2px 8px 1px rgb(64 60 67/24%)}
 .arrowing{position:fixed;top:50%;font-size:5rem;font-weight:300;color:#f7f7f7;line-height:1;text-decoration:none;transform:scale(1,2)}
 .pagination{position:relative;text-align:center;padding:2rem 0}
