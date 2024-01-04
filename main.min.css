@@ -1,5 +1,4 @@
 *{box-sizing:border-box;line-height:1.8}
-@font-face{font-family:logo;font-style:normal;font-weight:regular;src:url(//china.s3.bitiful.net/webfont/font.eot);src:local('Modak'),local('Modak-Normal'),url(//china.s3.bitiful.net/webfont/font.eot?#iefix) format('embedded-opentype'),url(//china.s3.bitiful.net/webfont/font.woff2) format('woff2'),url(//china.s3.bitiful.net/webfont/font.woff) format('woff'),url(//china.s3.bitiful.net/webfont/font.ttf) format('truetype')}
 @font-face{font-family:'Noto Serif SC';font-style:normal;font-weight:regular;src:url(//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.eot);src:local('Noto Serif SC'),local('NotoSerif SC-Normal'),url(//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.eot?#iefix) format('embedded-opentype'),url(//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.woff2) format('woff2'),url(//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.woff) format('woff'),url(//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.ttf) format('truetype'),url('//lib.baomitu.com/fonts/noto-serif-sc/noto-serif-sc-regular.svg#NotoSerif SC') format('svg')}
 body,html{color:#222;margin:0;padding:0}
 html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Helvetica,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei UI','Microsoft Yahei','Source Han Sans CN',sans-serif;font-size:1.2rem;overflow-y:scroll}
@@ -21,7 +20,7 @@ iframe{display:block;margin:0 auto}
 .nav a,#results-container a{text-decoration:none}
 .nav-container,main{display:block;margin:0 auto;max-width:40em;width:95%}
 main{margin-top:5rem}
-.logo{display:block;float:left;font-size:32px;font-family:'logo';-webkit-background-clip:text;background-clip:text;background-image:linear-gradient(90deg,#268dcd,#389eac 33%,#ffbe98);color:transparent;line-height:60px}
+.logo{display:block;float:left;background:url('//china.s3.bitiful.net/woailogo.svg') no-repeat;margin-top:13px;width:100px;color:transparent}
 #search-input{display:flex;max-width:512px;margin:0 auto;border:1px solid transparent;border-radius:24px;border-color:rgba(223,225,229,0);box-shadow:0 2px 8px 1px rgb(64 60 67/24%)}
 .arrowing{position:fixed;top:50%;font-size:5rem;font-weight:300;color:#f7f7f7;line-height:1;text-decoration:none;transform:scale(1,2)}
 .pagination{position:relative;text-align:center;padding:2rem 0}
@@ -78,23 +77,6 @@ table th{color:#333;font-weight:bold;padding:10px 9px;border:1px solid #e7e9ee;b
 table td:nth-child(1){white-space:nowrap}
 table td{padding:7px 8px;border:1px solid #e7e9ee}
 form.stacked button,form.stacked input,form.stacked label,form.stacked select,form.stacked textarea{display:block;width:100%;margin-bottom:5px}
-.twikoo{padding:1rem 0 5rem}
-.tk-comment{font-size:14px}
-.tk-avatar{margin:.1rem 1rem 0 0!important}
-.tk-content{margin-top:0!important}
-.tk-content p{margin:0}
-.tk-nick-link a{color:#61bfad;font-weight:bolder;text-decoration:underline}
-.tk-nick-link:hover{color:#61bfad!important}
-.tk-action-icon svg{fill:#434a56!important}
-.tk-comments-title .tk-icon svg{fill:#ccc!important}
-.tk-action-count{color:#434a56!important}
-.tk-icon svg {fill:#f5f7fa!important}
-.tk-tag-green{border:0!important;text-indent:-999px;padding:0 5px!important;background:url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiPjxwYXRoIGQ9Ik04NzkuNjE2IDI0NS43NmMtNS4xMiAwLTguMTkyLTEuMDI0LTEyLjI4OC0xLjAyNEg2ODcuMTA0Yy03LjE2OCAwLTEyLjI4OCAyLjA0OC0xNi4zODQgNy4xNjhhMjUxNDY3Ny45IDI1MTQ2NzcuOSAwIDAgMS0yNTIuOTI4IDI1OS4wNzJsLTYuMTQ0IDYuMTQ0VjI1NC45NzZjMC02LjE0NC0xLjAyNC05LjIxNi04LjE5Mi05LjIxNkgyMTcuMDg4Yy01LjEyIDAtNy4xNjggMS4wMjQtNi4xNDQgNy4xNjh2NTYuMzJjMCA2LjE0NCAyLjA0OCA4LjE5MiA3LjE2OCA3LjE2OGg0OS4xNTJjOS4yMTYgMCA5LjIxNiAwIDkuMjE2IDkuMjE2djUzNS41NTJjMS4wMjQgMCAxLjAyNCAwIDIuMDQ4IDEuMDI0IDIwMC43MDQtMjA0LjggNDAwLjM4NC00MTAuNjI0IDYwMS4wODgtNjE2LjQ0OCIgZmlsbD0iI0Y4RTcxQyIvPjxwYXRoIGQ9Ik01MTIgMTAuMjRDMjM0LjQ5NiAxMC4yNCAxMC4yNCAyMzQuNDk2IDEwLjI0IDUxMlMyMzQuNDk2IDEwMTMuNzYgNTEyIDEwMTMuNzYgMTAxMy43NiA3ODkuNTA0IDEwMTMuNzYgNTEyIDc4OS41MDQgMTAuMjQgNTEyIDEwLjI0ek0yODAuNTc2IDg2Mi4yMDhjLTEuMDI0LTEuMDI0LTEuMDI0LTEuMDI0LTIuMDQ4LTEuMDI0VjMyNS42MzJjMC05LjIxNiAwLTkuMjE2LTkuMjE2LTkuMjE2SDIyMC4xNmMtNS4xMiAxLjAyNC03LjE2OC0xLjAyNC03LjE2OC03LjE2OHYtNTYuMzJjLTEuMDI0LTYuMTQ0IDEuMDI0LTcuMTY4IDYuMTQ0LTcuMTY4aDE4Ni4zNjhjNy4xNjggMCA4LjE5MiAzLjA3MiA4LjE5MiA5LjIxNlY1MTcuMTJsNi4xNDQtNi4xNDRhMzAxNzYuNjc4IDMwMTc2LjY3OCAwIDAgMCAyNTIuOTI4LTI1OS4wNzJjNS4xMi01LjEyIDkuMjE2LTcuMTY4IDE2LjM4NC03LjE2OGgxODAuMjI0YzMuMDcyIDAgNy4xNjggMS4wMjQgMTIuMjg4IDEuMDI0LTIwMi43NTIgMjA1LjgyNC00MDIuNDMyIDQxMS42NDgtNjAxLjA4OCA2MTYuNDQ4eiIgZmlsbD0iIzRBNEE0QSIvPjwvc3ZnPg==') no-repeat!important;background-size:100%!important;width:16px;height:16px;line-height:1!important}
-.tk-admin{position:fixed!important}
-.tk-admin-comment table col[name=el-table_1_column_1]{width:5%}
-.tk-admin-comment table col[name=el-table_1_column_2],.tk-admin-comment table col[name=el-table_1_column_3]{width:10%}
-.tk-admin-comment table col[name=el-table_1_column_4]{width:55%}
-.tk-admin-comment table col[name=el-table_1_column_5]{width:15%}
 .el-button.is-disabled,.el-button.is-disabled:focus,.el-button.is-disabled:hover{color:#c0c4cc;cursor:not-allowed;background-image:none;background-color:#fff;border-color:#ebeef5}
 .el-button--primary.is-disabled,.el-button--primary.is-disabled:active,.el-button--primary.is-disabled:focus,.el-button--primary.is-disabled:hover{color:#fff!important;background-color:#252627!important;border-color:#4a4b50!important}
 code,pre{font-family:'Source Code Pro','DejaVu Sans Mono','Ubuntu Mono','Anonymous Pro','Droid Sans Mono',Menlo,Monaco,Consolas,Inconsolata,Courier,monospace,'PingFang SC','Microsoft YaHei',sans-serif}
@@ -143,14 +125,13 @@ pre code{color:inherit;font-size:85%;padding:0;margin:0}
 @media (prefers-color-scheme:dark){html,span.pagination_title{background:#3b3d42}
   body,.dropbtn,.catalogue-item{color:#e4e4e4}
   .nav,input,textarea,.archivedesktop{background:#252627}
+  .logo{background:url('//china.s3.bitiful.net/woai-logo.svg') no-repeat}
   .diwen{background-image:linear-gradient(to right,rgba(37,38,39,1),rgba(37,38,39,0))}
   img,.hero.slim{filter:grayscale(30%)}
   blockquote{border-radius:5px;border:0;background-color:#252627;box-shadow:0 1px 2px rgb(0 0 0 / 25%),0 0 1px rgb(0 0 0 / 25%)}
   a,.catalogue-title a,h1,h2,h3,h4,h5,.post h2 a,.post h3 a,.post h4 a,.footnote,.post-list a,footer a,.post a,p a{color:#f0f0f0}
   .dropdown-content{background-color:#3b3d42}
   .dropdown-content a{color:#a9a9b3}
-  .tk-expand{background:linear-gradient(rgba(41,42,45,0),rgba(41,42,45,1))!important}
-  .tk-action-icon svg,.tk-comments-title .tk-icon svg{fill:#ccc!important}
   .el-button,.el-input__inner,.el-textarea__inner{background-color:#252627!important;border-color:#4a4b50!important}
   .arrowing{color:#2e3033}
 }
