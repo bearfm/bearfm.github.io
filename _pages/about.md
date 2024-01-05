@@ -5,7 +5,7 @@ layout: page
 author: 熊的猫
 ---
 
->大家好，我是`熊の猫`。欢迎光临我的博客，它的名字叫`木木么么`，网址也挺好记的——`MuMu.MeMe`。
+>大家好，我是`熊の猫`。欢迎光临我的博客，它的名字叫`我爱.blog`，网址也挺好记的——`我爱.blog`或者`woai.blog`。
 >
 >大多数人的日常生活是在平凡和普通之中，诗意和远方基本只能用来憧憬。灵魂在远方游荡，肉体在眼前纠结。
 >
@@ -25,7 +25,7 @@ author: 熊的猫
 
 如果您有兴趣的话，欢迎给我来信。以下是我的几种联系方式：
 
-><i class="fa-solid fa-envelope"></i>：mumumemeⓐyeah.net
+><i class="fa-solid fa-envelope"></i>：woaiblogⓐ126.com
 >
 ><i class="fa-brands fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
 >
