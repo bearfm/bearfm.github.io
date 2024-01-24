@@ -2,7 +2,7 @@
 title: "友链 / Friends / 友達のブログ / 여러분"
 permalink: "/friend/"
 layout: page
-author: 熊的猫
+author: 刘看山
 ---
 
 <style>blockquote p{text-align:center!important}.fl{width:33%;text-align:center;float:left}</style>

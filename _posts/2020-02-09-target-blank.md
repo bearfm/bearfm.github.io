@@ -2,7 +2,7 @@
 title: 如何让Markdown在新窗口打开超链接
 date: 2020-02-09 08:00:00 +08:00
 layout: post
-author: 熊的猫
+author: 刘看山
 ---
 
 markdown链接语法`[title](url)`，编译为html，形如`<a href="url"></a>`。但很多时候，我们需要在a标签上添加`target="_blank"`，以便于实现在新窗口打开超链接。这该怎么办呢？在网上，我找了好多方法，咱们一一验证。

@@ -2,7 +2,7 @@
 title: 博客2.0：Hello Jekyll
 date: 2019-10-29 08:00:00 +08:00
 layout: post
-author: 熊的猫
+author: 刘看山
 ---
 
 好久没写博客了,前段时间又忙着出差,近期有些颓废。现在又满血复活、生机勃勃。

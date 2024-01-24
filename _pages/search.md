@@ -2,7 +2,7 @@
 title: "搜索 / Search / 検索けんさく / 검색"
 permalink: "/search/"
 layout: page
-author: 熊的猫
+author: 刘看山
 ---
 
 <!-- HTML elements for search -->
