@@ -9,12 +9,14 @@ a:focus,a:hover{text-decoration:underline}
 .right{float:right}
 .home-menu{padding:.5em;text-align:center;background:#2d3e50;box-shadow:0 1px 1px rgba(0,0,0,.1)}
 .pure-menu .pure-menu-fixed{border-bottom:none;z-index:4}
-.home-menu .pure-menu-heading{color:#fff;font-weight:400;font-size:120%}
+.home-menu .pure-menu-heading{color:#fff;font-weight:400}
 .home-menu .pure-menu-selected a{color:#fff}
 .home-menu a{color:#6fbef3}
 .home-menu li a:focus,.home-menu li a:hover{background:0 0;border:none;color:#aecfe5}
+.logo{font-size:120%}
+.pcacup{padding-left:10px}
 .cover{margin-top:70px;width:100%;height:300px;margin-bottom:40px;background:#eee;background-size:cover;background-position:center}
-.content{margin:0 auto;padding:0 2em;max-width:800px;margin-bottom:50px;line-height:1.6em}
+.content{margin:0 auto;padding:0 2em;max-width:800px;margin-bottom:50px}
 .content .content-title{margin:50px 0 20px 0;font-weight:300;color:#888}
 .content .content-title a{color:#222;font-weight:700}
 .content .content-homeinfo{color:#888}
@@ -23,7 +25,7 @@ a:focus,a:hover{text-decoration:underline}
 .post-title{text-align:center;padding-top:120px;font-size:30px;font-weight:700;color:#fff}
 .post-meta{text-align:center;font-style:italic;color:#fff}
 .post-meta:after{content:'';display:block;width:40px;height:4px;background:#fff;margin:30px auto 0}
-.post img{border-radius:8px;margin:40px -50px;width:1060px;max-width:1060px;box-shadow:0 4px 6px rgba(0,0,0,.04)}
+.post img{border-radius:8px;margin:40px -50px;width:120%;max-width:120%;box-shadow:0 4px 6px rgba(0,0,0,.04)}
 .post blockquote{font-style:italic;color:#666;border-left:3px solid #999;padding-left:1em}
 .post code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgba(250,250,250,.8)}
 .pagination{display:block;height:30px}
