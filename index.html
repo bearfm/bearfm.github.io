@@ -2,27 +2,17 @@
 layout: default
 ---
 
-<main>
+<div class="content">
   {% for post in paginator.posts %}
-    <div class="catalogue-item">
-      <h2 class="catalogue-title">
+  <h2 class="content-hometitle">
 		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	  </h2>
-		<div class="catalogue-time"><i class="fa-regular fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa-solid fa-user"></i> 刘看山</div>
-        <p>
-          {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More»</a>
-          </p>
-          <div class="hidden">博客沙龙(blog.salon)</div>
-    </div>
-    <div class="justify-center"><div class="prbr"></div></div>
+	</h2>
+  <div class="content-homeinfo"><i class="fa-regular fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa-solid fa-user"></i> 刘看山</div>
+    <p>
+      {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More»</a>
+    </p>
+      <div class="none">博客沙龙(blog.salon)</div>
+   </div>
+   <div class="justify-center"><div class="prbr"></div></div>
   {% endfor %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">⇦</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">⇨</a>
-  {% endif %}
-  <span>{{ paginator.page }}</span>
 </div>
-</main>

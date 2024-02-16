@@ -10,3 +10,5 @@ h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
 .home-menu .pure-menu-selected a{color:#fff}
 .home-menu a{color:#6fbef3}
 .home-menu li a:focus,.home-menu li a:hover{background:0 0;border:none;color:#aecfe5}
+.content{margin:0 auto;padding:0 2em;max-width:800px;margin-bottom:50px;line-height:1.6em}
+.content-title{margin:50px 0 20px 0;font-weight:300;color:#888}
