@@ -18,7 +18,7 @@ a:focus,a:hover{text-decoration:underline}
 .content .content-title{margin:50px 0 20px 0;font-weight:300;color:#888}
 .content .content-title a{color:#222;font-weight:700}
 .content .content-homeinfo{color:#888}
-.justify-center{display:block;width:50%;margin-left:auto;margin-right:auto;border-top:1px solid #ddd}
+.justify-center{display:block;width:50%;margin:30px auto;border-top:1px solid #ddd}
 .justify-center .brpr{position:relative;top:-4px;display:block;background:#fff;border:solid 1px #ddd;width:8px;height:8px;margin-left:auto;margin-right:auto;border-radius:50%}
 .post-title{text-align:center;padding-top:120px;font-size:30px;font-weight:700;color:#fff}
 .post-meta{text-align:center;font-style:italic;color:#fff}
@@ -26,4 +26,5 @@ a:focus,a:hover{text-decoration:underline}
 .post img{border-radius:8px;margin:40px -50px;width:1060px;max-width:1060px;box-shadow:0 4px 6px rgba(0,0,0,.04)}
 .post blockquote{font-style:italic;color:#666;border-left:3px solid #999;padding-left:1em}
 .post code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgba(250,250,250,.8)}
+.pagination{display:block;height:30px}
 .footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
