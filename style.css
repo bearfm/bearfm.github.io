@@ -19,6 +19,7 @@ a:focus,a:hover{text-decoration:underline}
 .content-title a{color:#222;font-weight:700}
 .content-homeinfo{color:#888}
 .post-title{text-align:center;padding-top:120px;font-size:30px;font-weight:700;color:#fff}
-.post-info{text-align:center;color:#fff}
+.post-meta{text-align:center;font-style:italic;color:#fff}
+.post-meta:after{content:'';display:block;width:40px;height:4px;background:#fff;margin:30px auto 0}
 .post img{border-radius:8px;margin:40px -50px;width:1060px;max-width:1060px;box-shadow:0 4px 6px rgba(0,0,0,.04)}
 .footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
