@@ -1,27 +1,12 @@
-<header id="header" class="headroom" role="banner">
-  <div class="nav">
-	<div class="nav-container">
-    <a title="博客沙龙(blog.salon)" href="https://blog.salon">
-		<div class="logo">博客沙龙</div>
-	</a>
-    <h1 class="hidden">博客沙龙(blog.salon)</h1>
-	<div class="desktop">
-		<ul>
-			<li><a href="{{ '/archive' | prepend: site.baseurl }}" style="color:#61bfad">归档</a></li>
-			<li><a href="{{ '/about' | prepend: site.baseurl }}" style="color:#fd8b8b">作者</a></li>
-			<li><a href="{{ '/friend' | prepend: site.baseurl }}" style="color:#ffab00">朋友</a></li>
-			<li><a href="{{ '/search' | prepend: site.baseurl }}"><i class="fa-solid fa-magnifying-glass" style="color:#99ccff"></i></a></li>
-		</ul>
-	</div>
-	<div class="dropdown">
-		<button class="dropbtn">☰</button>
-		<div class="dropdown-content">
-			<a href="{{ '/archive' | prepend: site.baseurl }}">归档</a>
-			<a href="{{ '/about' | prepend: site.baseurl }}">作者</a>
-			<a href="{{ '/friend' | prepend: site.baseurl }}">朋友</a>
-			<a href="{{ '/search' | prepend: site.baseurl }}">检索</a>
-		</div>
-	</div>
-  </div>
-  </div>
-</header>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" title="博客沙龙(blog.salon)" href="https://blog.salon">博客沙龙</a>
+		<h1 class="none">博客沙龙(blog.salon)</h1>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="{{ '/archive' | prepend: site.baseurl }}">归档</a></li>
+            <li class="pure-menu-item"><a href="{{ '/about' | prepend: site.baseurl }}">作者</a></li>
+            <li class="pure-menu-item"><a href="{{ '/friend' | prepend: site.baseurl }}">朋友</a></li>
+			<li class="pure-menu-item"><a href="{{ '/search' | prepend: site.baseurl }}">检索</a></li>
+        </ul>
+    </div>
+</div>

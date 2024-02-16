@@ -2,3 +2,11 @@
 body,html{color:#222;margin:0;padding:0}
 html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Helvetica,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei UI','Microsoft Yahei','Source Han Sans CN',sans-serif;font-size:1.2rem;overflow-y:scroll}
 h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
+.none{display:none}
+.home-menu{padding:.5em;text-align:center;box-shadow:0 1px 1px rgba(0,0,0,.1)}
+.home-menu{background:#2d3e50}
+.pure-menu.pure-menu-fixed{border-bottom:none;z-index:4}
+.home-menu .pure-menu-heading{color:#fff;font-weight:400;font-size:120%}
+.home-menu .pure-menu-selected a{color:#fff}
+.home-menu a{color:#6fbef3}
+.home-menu li a:focus,.home-menu li a:hover{background:0 0;border:none;color:#aecfe5}
