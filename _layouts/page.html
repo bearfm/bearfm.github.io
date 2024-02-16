@@ -4,11 +4,9 @@ layout: default
 
 <div class="cover" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
 	<h2 class="post-title">{{ page.title }}</h2>
+	<div class="none">博客沙龙（blog.salon）</div>
 	<div class="post-info">
-		{% if page.date %}
-			<time>{{ page.date | date: "刘看山 写于 %Y年%m月%d日" }}</time><div class="none">博客沙龙（blog.salon）</div>
-			<hr>
-		{% endif %}
+		<hr>
 	</div>
 </div>
 <div class="content">
