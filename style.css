@@ -3,6 +3,8 @@ body,html{color:#222;margin:0;padding:0}
 html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Helvetica,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei UI','Microsoft Yahei','Source Han Sans CN',sans-serif;font-size:1.2rem;overflow-y:scroll}
 h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
 .none{display:none}
+.left{float:left}
+.right{float:right}
 .home-menu{padding:.5em;text-align:center;box-shadow:0 1px 1px rgba(0,0,0,.1)}
 .home-menu{background:#2d3e50}
 .pure-menu.pure-menu-fixed{border-bottom:none;z-index:4}
@@ -12,3 +14,4 @@ h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
 .home-menu li a:focus,.home-menu li a:hover{background:0 0;border:none;color:#aecfe5}
 .content{margin:0 auto;padding:0 2em;max-width:800px;margin-bottom:50px;line-height:1.6em}
 .content-title{margin:50px 0 20px 0;font-weight:300;color:#888}
+.footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
