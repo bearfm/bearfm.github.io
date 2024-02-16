@@ -2,10 +2,15 @@
 layout: default
 ---
 
+<div class="cover" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
+	{% for post in paginator.posts %}
+	<h2 class="content-hometitle">
+		  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	  </h2>
+	  <div class="post-info"><hr></div>
+</div>
 <div class="content">
 	<div class="post">
-		<h2 class="post-title">{{ page.title }}</h2>
-		<div class="post-info"><hr></div>
 		{{ content }}
 	</div>
 	<div class="hidden">博客沙龙(blog.salon)</div>
