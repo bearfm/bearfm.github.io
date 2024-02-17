@@ -29,6 +29,7 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(25
 .post blockquote{margin:auto;font-style:italic;color:#666;border-left:3px solid #999;padding-left:1em}
 .pagination{display:block;height:30px}
 .footer{margin:50px auto 0;padding:1em;font-size:87.5%;width:800px;border-top:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#ddd 50%,rgba(255,255,255,0) 100%) 1}
+.footer a{color:#222}
 @media (max-width:37.5em){
     .header{height:300px}.logo{font-size:120%}.content-title,.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
 }
