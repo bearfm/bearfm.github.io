@@ -9,20 +9,20 @@ layout: default
 			{% if page.date %}
 			<div class="post-meta">{{ page.date | date: "刘看山 写于 %Y年%m月%d日" }}</div>
 			{% endif %}
-		<div class="none">博客沙龙（blog.salon）</div>
+		<div class="none">沐沐濹濹(mumu.meme)</div>
 		</div>
 		{{ content }}
 	</div>
 	<div class="pagination">
 		{% if page.next.url %}
-		<div class="none">博客沙龙(blog.salon)</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
+		<div class="none">沐沐濹濹(mumu.meme)</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
 		{% endif %}
 		{% if page.previous.url %}
-		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="none">博客沙龙(blog.salon)</div>
+		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="none">沐沐濹濹(mumu.meme)</div>
 		{% endif %}
 	</div>
 	<div class="pagination"></div>
-	<div class="none">博客沙龙(blog.salon)</div>
+	<div class="none">沐沐濹濹(mumu.meme)</div>
 	<div id="gitalk-container"></div>
 </div>
 <link rel="stylesheet" href="//lib.baomitu.com/gitalk/1.8.0/gitalk.min.css">
@@ -42,5 +42,3 @@ gitalk.render('gitalk-container')
 <link rel="stylesheet" href="//lib.baomitu.com/highlight.js/11.4.0/styles/atom-one-dark.min.css">
 <script type="text/javascript" src="//lib.baomitu.com/highlight.js/11.4.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript" src="//lib.baomitu.com/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
-<script>hljs.initLineNumbersOnLoad();</script>

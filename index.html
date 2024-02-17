@@ -12,7 +12,16 @@ layout: default
     <p>
       {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More»</a>
     </p>
-      <div class="none">博客沙龙(blog.salon)</div>
+      <div class="none">沐沐濹濹(mumu.meme)</div>
    <span class="justify-center"><span class="brpr"></span></span>
   {% endfor %}
+</div>
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left">⇦</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right">⇨</a>
+  {% endif %}
+  <span>{{ paginator.page }}</span>
 </div>
