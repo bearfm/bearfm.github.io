@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<div class="cover" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
-	<h2 class="post-title">{{ page.title }}</h2>
-	<div class="none">博客沙龙（blog.salon）</div>
-	<div class="post-meta"></div>
-</div>
 <div class="content">
 	<div class="post">
+		<h2 class="post-title">{{ page.title }}</h2>
+		<div class="none">博客沙龙（blog.salon）</div>
+		<div class="post-meta"></div>
 		{{ content }}
 	</div>
 	<div class="none">博客沙龙(blog.salon)</div>

@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<div class="cover {% if page.cover %}post-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
-	<h2 class="post-title">{{ page.title }}</h2>
-	<div class="post-info">
-		{% if page.date %}
-			<div class="post-meta">{{ page.date | date: "刘看山 写于 %Y年%m月%d日" }}</div>
-		{% endif %}
-		<div class="none">博客沙龙（blog.salon）</div>
-	</div>
-</div>
 <div class="content">
 	<div class="post">
+		<h2 class="post-title">{{ page.title }}</h2>
+		<div class="post-info">
+			{% if page.date %}
+			<div class="post-meta">{{ page.date | date: "刘看山 写于 %Y年%m月%d日" }}</div>
+			{% endif %}
+		<div class="none">博客沙龙（blog.salon）</div>
+		</div>
 		{{ content }}
 	</div>
 	<div class="pagination">
