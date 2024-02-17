@@ -25,7 +25,7 @@ author: 刘看山
 
 如果您有兴趣的话，欢迎给我来信。以下是我的几种联系方式：
 
-><i class="fa-solid fa-envelope"></i>：woaiblogⓐ126.com
+><i class="fa-solid fa-envelope"></i>：mumumemeⓐyeah.net
 >
 ><i class="fa-brands fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
 >
