@@ -16,8 +16,8 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background: rgb(2
 .nav a{color:#fff}
 .p-left{padding-left:15px}
 .content{margin:0 auto;padding:0 2em;max-width:800px}
-.content .content-title{margin:50px 0 20px 0;font-weight:300;color:#888}
-.content .content-title a{color:#222;font-weight:700}
+.content .content-title{color:#888}
+.content .content-title a{color:#222;font-size:32px;font-weight:700}
 .content .content-homeinfo{color:#888}
 .justify-center{display:block;width:50%;margin:30px auto;border-top:1px solid #ddd}
 .justify-center .brpr{position:relative;top:-4px;display:block;background:#fff;border:solid 1px #ddd;width:8px;height:8px;margin-left:auto;margin-right:auto;border-radius:50%}
@@ -29,5 +29,5 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background: rgb(2
 .pagination{display:block;height:30px}
 .footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
 @media (max-width:37.5em){
-    .header{height:300px}.logo{font-size:120%}.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
+    .header{height:300px}.logo{font-size:120%}.content-title a,.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
 }

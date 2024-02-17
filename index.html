@@ -6,10 +6,10 @@ layout: default
 <div class="content">
   {% for post in paginator.posts %}
   <div class="pure-u-1">
-    <h2 class="content-hometitle">
+    <h2 class="content-title">
 		  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  </h2>
-    <div class="content-homeinfo"><i class="fa-regular fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa-solid fa-user"></i> 刘看山</div>
+    <div class="content-meta"><i class="fa-regular fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa-solid fa-user"></i> 刘看山</div>
       <p>
         {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More»</a>
       </p>
