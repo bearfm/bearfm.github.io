@@ -8,10 +8,10 @@ a:focus,a:hover{text-decoration:underline}
 .none{display:none}
 .left{float:left}
 .right{float:right}
-.header{text-align:center;margin-bottom:50px;height:400px;background:transparent url("//picsum.photos/1960/400") no-repeat;background-size:cover;background-position:center}
+.header{text-align:center;margin-bottom:50px;height:350px;background:transparent url("//bing.img.run/1366x768.php") no-repeat;background-size:cover;background-position:center}
 .brand{padding:5rem 1.6rem 2rem}
 .brand a:focus,.brand a:hover{text-decoration:none}
-.logo{font-size:120%;font-family:'logo';color:#fff}
+.logo{font-size:150%;font-family:'logo';color:#fff;text-shadow:0 0 5px #555}
 .nav{margin:0 auto 20px;max-width:800px;border-top:solid 1px;border-bottom:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 50%,rgba(255,255,255,0) 100%) 1}
 .nav a{color:#fff}
 .p-left{padding-left:15px}
@@ -23,7 +23,7 @@ a:focus,a:hover{text-decoration:underline}
 .justify-center .brpr{position:relative;top:-4px;display:block;background:#fff;border:solid 1px #ddd;width:8px;height:8px;margin-left:auto;margin-right:auto;border-radius:50%}
 .post-title{text-align:center;padding-top:50px;font-size:36px;font-weight:700;color:#2e2e2e}
 .post-meta{text-align:center;font-style:italic;color:#ccc}
-.post-meta:after{content:'';display:block;width:40px;height:4px;background:#ddd;margin:50px auto 0}
+.post-meta:after{content:'';display:block;width:40px;height:4px;background:#ddd;margin:50px auto}
 .post img{border-radius:8px;margin:40px -50px;width:120%;max-width:120%;box-shadow:0 4px 6px rgba(0,0,0,.04)}
 .post blockquote{font-style:italic;color:#666;border-left:3px solid #999;padding-left:1em}
 .post code{padding:.1em;border-radius:.3em;border:1px solid #eee}
