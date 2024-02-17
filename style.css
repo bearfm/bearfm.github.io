@@ -16,6 +16,7 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(25
 .logo{font-size:150%;font-family:'logo';color:#fff;text-shadow:0 0 5px #555}
 .nav{margin:0 auto 20px;max-width:800px;border-top:solid 1px;border-bottom:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 50%,rgba(255,255,255,0) 100%) 1}
 .nav a{color:#fff}
+.nav a:focus,.nav a:hover{color:#3d92c9}
 .content{margin:0 auto;padding:0 2em;max-width:800px}
 .content-title{margin:0;font-size:32px;font-weight:700}
 .content-title a{color:#2e2e2e}
