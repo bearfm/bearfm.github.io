@@ -5,7 +5,6 @@ html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Robot
 h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
 a{text-decoration:none;color:#3d92c9}
 a:focus,a:hover{text-decoration:underline}
-.none{display:none}
 .left{float:left}
 .right{float:right}
 .header{text-align:center;margin-bottom:50px;height:350px;background:transparent url("//bing.img.run/1366x768.php") no-repeat;background-size:cover;background-position:center}
@@ -29,6 +28,6 @@ a:focus,a:hover{text-decoration:underline}
 .post code{padding:.1em;border-radius:.3em;border:1px solid #eee}
 .pagination{display:block;height:30px}
 .footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
-@media (min-width:37.5em){
+@media (max-width:37.5em){
     .header{height:300px}.logo{font-size:120%}.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
 }

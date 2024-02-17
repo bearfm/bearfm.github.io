@@ -9,11 +9,11 @@ layout: default
 			{% if page.date %}
 			<div class="post-meta">{{ page.date | date: "刘看山 写于 %Y年%m月%d日" }}</div>
 			{% endif %}
-		<div class="none">沐沐濹濹(mumu.meme)</div>
+		<div hidden>沐沐濹濹(mumu.meme)</div>
 		</div>
 		{{ content }}
 	</div>
-	<div class="none">沐沐濹濹(mumu.meme)</div>
+	<div hidden>沐沐濹濹(mumu.meme)</div>
 	<div class="pagination">
 		{% if page.next.url %}
 		<a class="pure-button left" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa-solid fa-arrow-left"></i> 上一篇</a>
@@ -23,7 +23,7 @@ layout: default
 		{% endif %}
 	</div>
 	<div class="pagination"></div>
-	<div class="none">沐沐濹濹(mumu.meme)</div>
+	<div hidden>沐沐濹濹(mumu.meme)</div>
 	<div id="gitalk-container"></div>
 </div>
 <link rel="stylesheet" href="//lib.baomitu.com/gitalk/1.8.0/gitalk.min.css">

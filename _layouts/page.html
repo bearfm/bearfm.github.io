@@ -5,11 +5,11 @@ layout: default
 <div class="content">
 	<div class="post">
 		<h2 class="post-title">{{ page.title }}</h2>
-		<div class="none">沐沐濹濹(mumu.meme)</div>
+		<div hidden>沐沐濹濹(mumu.meme)</div>
 		<div class="post-meta"></div>
 		{{ content }}
 	</div>
-	<div class="none">沐沐濹濹(mumu.meme)</div>
+	<div hidden>沐沐濹濹(mumu.meme)</div>
 	<div class="pagination">
 		{% if page.next.url %}
 		<a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
