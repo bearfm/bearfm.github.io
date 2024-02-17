@@ -5,7 +5,7 @@ layout: post
 author: 刘看山
 ---
 
-![](https://china.s3.bitiful.net/album/20210319.jpg)
+![](https://cctv.cdn.bcebos.com/album/20210319.jpg)
 
 呢喃晚风吹进来　吹醒谁家小孩　
 

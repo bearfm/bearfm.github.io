@@ -5,7 +5,7 @@ layout: post
 author: 刘看山
 ---
 
-![](https://china.s3.bitiful.net/album/20201206-1.jpg)
+![](https://cctv.cdn.bcebos.com/album/20201206-1.jpg)
 
 是你吗？
 
@@ -156,6 +156,6 @@ author: 刘看山
 
 我的世界都是你……
 
-![](https://china.s3.bitiful.net/album/20201206-2.jpg)
+![](https://cctv.cdn.bcebos.com/album/20201206-2.jpg)
 
 ###### ——By 幾米
