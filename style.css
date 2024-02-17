@@ -5,29 +5,30 @@ html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Robot
 h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
 a{text-decoration:none;color:#3d92c9}
 a:focus,a:hover{text-decoration:underline}
-pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background: rgb(250, 250, 250);}
+pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(250, 250, 250)}
 .left{float:left}
 .right{float:right}
-.header{text-align:center;margin-bottom:50px;height:350px;background:transparent url("//cctv.cdn.bcebos.com/image/index.html") no-repeat;background-size:cover;background-position:center}
+.center{text-align:center}
+.l-box{padding:1em}
+.header{text-align:center;margin-bottom:50px;height:350px;background:transparent url("//picsum.photos/1366/356") no-repeat;background-size:cover;background-position:center}
 .brand{padding:5rem 1.6rem 2rem}
 .brand a:focus,.brand a:hover{text-decoration:none}
 .logo{font-size:150%;font-family:'logo';color:#fff;text-shadow:0 0 5px #555}
 .nav{margin:0 auto 20px;max-width:800px;border-top:solid 1px;border-bottom:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 50%,rgba(255,255,255,0) 100%) 1}
 .nav a{color:#fff}
-.p-left{padding-left:15px}
 .content{margin:0 auto;padding:0 2em;max-width:800px}
-.content .content-title{color:#888}
-.content .content-title a{color:#222;font-size:32px;font-weight:700}
-.content .content-homeinfo{color:#888}
+.content-title h2{font-size:32px;font-weight:700}
+.content-title a{color:#2e2e2e}
+.content-meta{font-size:87.5%;color:#888}
 .justify-center{display:block;width:50%;margin:30px auto;border-top:1px solid #ddd}
 .justify-center .brpr{position:relative;top:-4px;display:block;background:#fff;border:solid 1px #ddd;width:8px;height:8px;margin-left:auto;margin-right:auto;border-radius:50%}
 .post-title{text-align:center;padding-top:50px;font-size:36px;font-weight:700;color:#2e2e2e}
-.post-meta{text-align:center;font-style:italic;font-size:87.5%;color:#ccc}
+.post-meta{text-align:center;font-style:italic;font-size:87.5%;color:#888}
 .post-meta:after{content:'';display:block;width:40px;height:4px;background:#ddd;margin:50px auto}
 .post img{border-radius:8px;margin:40px -50px;width:120%;max-width:120%;box-shadow:0 4px 6px rgba(0,0,0,.04)}
 .post blockquote{margin:auto;font-style:italic;color:#666;border-left:3px solid #999;padding-left:1em}
 .pagination{display:block;height:30px}
-.footer{border-top:1px solid #eee;font-size:87.5%;margin-top:3.4286em;padding:1.1429em}
+.footer{margin:50px auto 0;padding:1em;font-size:87.5%;width:800px;border-top:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#ddd 50%,rgba(255,255,255,0) 100%) 1}
 @media (max-width:37.5em){
-    .header{height:300px}.logo{font-size:120%}.content-title a,.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
+    .header{height:300px}.logo{font-size:120%}.content-title h2,.post-title{font-size:28px}.post img{margin:auto;width:100%;max-width:100%}
 }
