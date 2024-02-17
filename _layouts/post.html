@@ -13,12 +13,13 @@ layout: default
 		</div>
 		{{ content }}
 	</div>
+	<div class="none">沐沐濹濹(mumu.meme)</div>
 	<div class="pagination">
 		{% if page.next.url %}
-		<div class="none">沐沐濹濹(mumu.meme)</div><a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">« 上一篇</a>
+		<a class="pure-button left" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa-solid fa-arrow-left"></i> 上一篇</a>
 		{% endif %}
 		{% if page.previous.url %}
-		<a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">下一篇 »</a><div class="none">沐沐濹濹(mumu.meme)</div>
+		<a class="pure-button right" href="{{ page.previous.url | prepend: site.baseurl }}">下一篇  <i class="fa-solid fa-arrow-right"></i></a>
 		{% endif %}
 	</div>
 	<div class="pagination"></div>
