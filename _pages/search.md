@@ -16,7 +16,7 @@ author: 刘看山
 		<input class="pure-input-2-3" type="hidden" name="_charset_" value="">
 		<input class="pure-input-2-3" type="hidden" name="bcd" value="&#247;">
 		<input class="pure-input-2-3" type="text" name="query" size="15"> 
-		<input class="pure-button pure-button-primary" type="submit" value="<i class="fa-solid fa-magnifying-glass"></i>">
+		<input class="pure-button pure-button-primary" type="submit" value="search!">
 		</form>
 	</td>
 </tr>
