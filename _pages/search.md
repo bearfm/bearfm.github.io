@@ -5,21 +5,20 @@ layout: page
 author: 刘看山
 ---
 
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期.." style="text-align:center"/>
-<ul id="results-container"></ul>
-
-<!-- script pointing to jekyll-search.js -->
-<script src="/js/simple-jekyll-search.min.js"></script>
-
-<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: '没有搜索到文章',
-    limit: 20,
-    fuzzy: false
-  })
-</script>
+<!-- start of freefind search box html -->
+<table cellpadding=0 cellspacing=0 border=0 style="margin:0 auto;width: 80%">
+<tr>
+	<td>
+		<form class="pure-form" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+		<input class="pure-input-2-3" type="hidden" name="si" value="33798857">
+		<input class="pure-input-2-3" type="hidden" name="pid" value="r">
+		<input class="pure-input-2-3" type="hidden" name="n" value="0">
+		<input class="pure-input-2-3" type="hidden" name="_charset_" value="">
+		<input class="pure-input-2-3" type="hidden" name="bcd" value="&#247;">
+		<input class="pure-input-2-3" type="text" name="query" size="15"> 
+		<input class="pure-button pure-button-primary" type="submit" value="<i class="fa-solid fa-magnifying-glass"></i>">
+		</form>
+	</td>
+</tr>
+</table>
+<!-- end of freefind search box html -->
