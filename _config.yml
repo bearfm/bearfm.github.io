@@ -1,5 +1,5 @@
 ---
-title: 木木么么
+title: 自己字集
 timezone: Asia/Shanghai
 collections:
   posts:
@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 木木么么,MuMu MeMe,mumu.meme,刘看山,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
+description: 自己字集,ziji.info,刘看山,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
 baseurl: ''
-url: https://mumu.meme
+url: https://ziji.info
 author:
   name: 刘看山
-  url: https://mumu.meme/about/
+  url: https://ziji.info/about/
   email: mumumeme@yeah.net
 markdown: kramdown
 include:
