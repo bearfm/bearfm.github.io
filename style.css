@@ -1,8 +1,8 @@
 *{box-sizing:border-box;line-height:2}
-@font-face{font-family:'logo';src:url('//cctv.cdn.bcebos.com/icons/logo.gif?r=2');src:url('//cctv.cdn.bcebos.com/icons/logo.gif?r=2?#iefix')format('embedded-opentype'),url('//cctv.cdn.bcebos.com/icons/logo.png?r=2')format('woff2'),url('//cctv.cdn.bcebos.com/icons/logo.bmp?r=2')format('woff'),url('//cctv.cdn.bcebos.com/icons/logo.jpg?r=2')format('truetype');font-weight:normal;font-style:normal}
+@font-face{font-family:'logo';src:url('//cctv.cdn.bcebos.com/icons/logo.gif?r=2');src:url('//cctv.cdn.bcebos.com/icons/logo.gif?r=2')format('embedded-opentype'),url('//cctv.cdn.bcebos.com/icons/logo.png?r=2')format('woff2'),url('//cctv.cdn.bcebos.com/icons/logo.bmp?r=2')format('woff'),url('//cctv.cdn.bcebos.com/icons/logo.jpg?r=2')format('truetype');font-weight:normal;font-style:normal}
 html{font-family:'Gotham-Book',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Helvetica,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei UI','Microsoft Yahei','Source Han Sans CN',sans-serif;overflow-y:scroll}
 h1,h2,h3,h4,h5{font-weight:inherit;line-height:normal}
-a{text-decoration:none;color:#3d92c9}
+a{text-decoration:none;color:#0078e7}
 a:focus,a:hover{text-decoration:underline}
 pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(250, 250, 250)}
 .left{float:left}
@@ -16,7 +16,7 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(25
 .logo{font-size:150%;font-family:'logo';color:#fff;text-shadow:0 0 5px #555}
 .nav{margin:0 auto 20px;max-width:800px;border-top:solid 1px;border-bottom:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 50%,rgba(255,255,255,0) 100%) 1}
 .nav a{color:#fff}
-.nav a:focus,.nav a:hover{color:#3d92c9}
+.nav a:focus,.nav a:hover{color:#0078e7}
 .content{margin:0 auto;padding:0 2em;max-width:800px}
 .content-title{margin:0;font-size:32px;font-weight:700}
 .content-title a{color:#2e2e2e}
