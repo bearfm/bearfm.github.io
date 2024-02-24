@@ -19,7 +19,7 @@ author: 刘看山
 > 
 > 我们的信念不会改。
 
-------------
+<span class="justify-center"><span class="brpr"></span></span>
 
 * [Fooleap](https://blog.fooleap.org/){:target="_blank"}：分享技术、记录点滴
 

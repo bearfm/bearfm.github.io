@@ -19,22 +19,7 @@ layout: default
       {% assign myMonth = currentMonth %}
     {% endif %}
   {% endfor %}
-  <hr />
-</div>
-
-<div class="archivedesktop">
-  {% for post in site.posts %}
-    {% assign currentMonth = post.date | date: "%B %Y" %}
-    {% assign currentYear = post.date | date: "%Y" %}
-    {% if currentYear != myYear %}
-      <br /><b>📔 {{ currentYear }}年</b><br />
-      {% assign myYear = currentYear %}
-    {% endif %}
-    {% if currentMonth != myMonth %}
-      <span><a href="#{{ currentMonth | date: '%B %Y' | slugify }}">{{ currentMonth | date: "%m" }}月</a>&nbsp;| </span>
-      {% assign myMonth = currentMonth %}
-    {% endif %}
-  {% endfor %}
+  <span class="justify-center"><span class="brpr"></span></span>
 </div>
 
 <div>
