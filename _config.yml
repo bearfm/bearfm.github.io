@@ -1,5 +1,5 @@
 ---
-title: 自己字集
+title: 言井故事
 timezone: Asia/Shanghai
 collections:
   posts:
@@ -8,13 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 自己字集,ziji.info,刘看山,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
+description: 言井故事,9125.net,刘看山,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
 baseurl: ''
-url: https://ziji.info
+url: https://9125.net
 author:
   name: 刘看山
-  url: https://ziji.info/about/
-  email: ziji@mail.io
+  url: https://9125.net/about/
+  email: 9125@111.com
 markdown: kramdown
 include:
 - _pages

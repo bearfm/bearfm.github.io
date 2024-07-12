@@ -5,7 +5,7 @@ layout: page
 author: 刘看山
 ---
 
->大家好，我是`刘看山`。欢迎光临我的博客——`自己字集`，网址也挺好记的——`ziji.info`。
+>大家好，我是`刘看山`。欢迎光临我的博客——`言井故事`，网址也挺好记的——`9125.net`（谐音`就要爱我`）。
 >
 >大多数人的日常生活是在平凡和普通之中，诗意和远方基本只能用来憧憬。灵魂在远方游荡，肉体在眼前纠结。
 >
@@ -25,7 +25,7 @@ author: 刘看山
 
 如果您有兴趣的话，欢迎给我来信。以下是我的几种联系方式：
 
-><i class="fa-solid fa-envelope"></i>：zijiⓐmail.io
+><i class="fa-solid fa-envelope"></i>：9125@111.com
 >
 ><i class="fa-brands fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
 >
