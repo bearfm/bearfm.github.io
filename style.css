@@ -25,7 +25,7 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(25
 .post-meta{font-style:italic;font-size:87.5%;color:#999}
 .post-meta:after{content:'';display:block;width:40px;height:4px;background:#ddd;margin:50px auto}
 .post img{border-radius:8px;margin:0 -32px;width:800px;max-width:800px;box-shadow:0 4px 6px rgba(0,0,0,.04)}
-.post blockquote{margin:auto;font-style:italic;color:#666;border-left:4px solid #999;padding-left:1em}
+.post blockquote{color:#666;border:4px solid #999;margin-top:32px;margin-left:-32px;margin-right:-32px;margin-bottom:32px;padding-left:32px;padding-right:23px}
 .pagination{display:block;height:30px}
 .footer{margin:50px auto 0;padding:1em;font-size:87.5%;max-width:800px;border-top:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#ddd 50%,rgba(255,255,255,0) 100%) 1}
 .footer a{color:#222}
