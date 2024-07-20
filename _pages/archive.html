@@ -34,7 +34,7 @@ layout: default
       <h4 id="{{ currentMonth | slugify }}" style="margin-left: 0.67em;">{{ currentMonth | date: "%m" }}月</h4>
       {% assign myMonth = currentMonth %}
     {% endif %}
-    <p style="margin-left: 2em;"><i class="fa-solid fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} | <a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></p>
+    <p style="margin-left: 2em;"><i class="fa fa-calendar"></i> {{ post.date | date: "%Y-%m-%d" }} | <a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></p>
   {% endfor %}
 </div>
   <p>&nbsp;</p>
