@@ -23,15 +23,15 @@ author: 刘看山
 
 如果您有兴趣的话，欢迎给我来信。以下是我的几种联系方式：
 
-><i class="fa-solid fa-envelope"></i>：9125@88.com
+><i class="fa fa-envelope"></i>：9125@88.com
 >
-><i class="fa-brands fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
+><i class="fa fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
 >
 ><i class="fa-brands fa-weixin"></i>：[微信点这，扫码加好友](https://www.douban.com/photos/photo/2625796574/){:target="_blank"}
 >
-><i class="fa-brands fa-telegram"></i>：fm789，[点我](https://t.me/fm876){:target="_blank"}
+><i class="fa fa-telegram"></i>：fm789，[点我](https://t.me/fm876){:target="_blank"}
 
-本博客采用 **[ <i class="fa-brands fa-creative-commons"></i> <i class="fa-brands fa-creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc"></i> <i class="fa-brands fa-creative-commons-sa"></i>](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh){:target="_blank"}** `（知识产权署名-非商业性使用 4.0 国际许可协议）`进行许可。
+本博客采用 **[ <i class="fa fa-creative-commons"></i> <i class="fa fa-creative-commons-by"></i> <i class="fa fa-creative-commons-nc"></i> <i class="fa fa-creative-commons-sa"></i>](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh){:target="_blank"}** `（知识产权署名-非商业性使用 4.0 国际许可协议）`进行许可。
 
 <script>
 var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2016-05-05" | date: "%s" }}) / (60 * 60 * 24));
