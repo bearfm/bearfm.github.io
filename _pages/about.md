@@ -31,7 +31,7 @@ author: 刘看山
 >
 ><i class="fa fa-telegram"></i>：fm789，[点我](https://t.me/fm876){:target="_blank"}
 
-本博客采用 **[ <i class="fa fa-creative-commons"></i> <i class="fa fa-creative-commons-by"></i> <i class="fa fa-creative-commons-nc"></i> <i class="fa fa-creative-commons-sa"></i>](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh){:target="_blank"}** `（知识产权署名-非商业性使用 4.0 国际许可协议）`进行许可。
+本博客采用 **[ <i class="fa fa-creative-commons"></i> BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh){:target="_blank"}** `（知识产权署名-非商业性使用 4.0 国际许可协议）`进行许可。
 
 <script>
 var days = 0, daysMax = Math.floor((Date.now() / 1000 - {{ "2016-05-05" | date: "%s" }}) / (60 * 60 * 24));
