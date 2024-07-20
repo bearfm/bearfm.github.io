@@ -27,7 +27,7 @@ author: 刘看山
 >
 ><i class="fa fa-qq"></i>：5592112，[点我](http://wpa.qq.com/msgrd?v=3&uin=5592112&site=qq&menu=yes){:target="_blank"}
 >
-><i class="fa-brands fa-weixin"></i>：[微信点这，扫码加好友](https://www.douban.com/photos/photo/2625796574/){:target="_blank"}
+><i class="fa fa-weixin"></i>：[微信点这，扫码加好友](https://www.douban.com/photos/photo/2625796574/){:target="_blank"}
 >
 ><i class="fa fa-telegram"></i>：fm789，[点我](https://t.me/fm876){:target="_blank"}
 
