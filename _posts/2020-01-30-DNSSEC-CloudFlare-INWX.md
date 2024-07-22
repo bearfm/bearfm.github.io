@@ -2,7 +2,7 @@
 title: INWX域名如何设置CloudFlare的DNSSEC
 date: 2020-01-30 08:00:00 +08:00
 layout: post
-author: 刘看山
+author: 文刀刘
 ---
 
 我这个域名是在[INWX](https://www.inwx.com/en "INWX"){:target="_blank"}注册的，因为价格便宜。注册后发现，INWX的域名管理系统相当完善，不仅有强大的DNS管理系统、~~免费的~~SSL、Glue Records、Master/Slave DNS等，同样也支持DNSSEC。但是，当我尝试用CloudFlare提供的DNSSEC参数的时候，却发现INWX必须手动配置DNSSEC才行。

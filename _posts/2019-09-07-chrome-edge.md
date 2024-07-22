@@ -2,7 +2,7 @@
 title: 基于Chromium的Edge浏览器放出Beta版了
 date: 2019-09-07 08:00:00 +08:00
 layout: post
-author: 刘看山
+author: 文刀刘
 ---
 
 Edge基于Chromium重启开发早就不是一件新鲜的事情了，在去年12月6日的时候微软就已经正式宣告了这件事情，并且不断有开发版安装包流出。基于Chromium相对而言还是好处多于坏处的，首要的就是Edge得以跨平台化，先前的Edge浏览器是Windows 10“独占”，而换到Chromium之后就可以让之前版本的Windows用上最新的微软自家浏览器，甚至可以跨平台到macOS上面去，未来还可以有Linux的版本，符合微软目前的全平台软件战略。
