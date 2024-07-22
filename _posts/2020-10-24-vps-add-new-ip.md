@@ -2,7 +2,7 @@
 title: CentOS系统的VPS绑定添加IP地址
 date: 2020-10-24 12:51:00 +08:00
 layout: post
-author: 刘看山
+author: 文刀刘
 ---
 
 今天是10月24日——1024程序员节，所以来说一说代码的事情。

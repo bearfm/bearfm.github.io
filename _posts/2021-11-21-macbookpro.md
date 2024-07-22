@@ -2,7 +2,7 @@
 title: 换了MacBook Pro，算是全家桶了
 date: 2021-11-21 16:07:00 +08:00
 layout: post
-author: 刘看山
+author: 文刀刘
 ---
 
 随着工作的深入开展，原来的Surface Go已经越来越无法满足任务需求了，为此，牙一咬、心一横入手了一台MacBook Pro（二手的😂），配置嘛——i5 256G，带一个鸡肋的Touch Bar。不过Touch Bar虽然说鸡肋，但是颜值还是挺在线的，单位女生已经兴奋的拿手机又拍又录的。

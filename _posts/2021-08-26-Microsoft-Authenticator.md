@@ -2,7 +2,7 @@
 title: Microsoft Authenticator
 date: 2021-08-26 15:01:00 +08:00
 layout: post
-author: 刘看山
+author: 文刀刘
 ---
 
 因为手机用的是iOS系统，电脑又是Windows系统，这之间就涉及到一个常用且实用的问题——密码同步。
