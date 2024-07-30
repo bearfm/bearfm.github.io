@@ -5,7 +5,7 @@ layout: post
 author: 文刀刘
 ---
 
-![](https://cctv.cdn.bcebos.com/album/20201206-1.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20201206-1.jpg)
 
 是你吗？
 
@@ -156,6 +156,6 @@ author: 文刀刘
 
 我的世界都是你……
 
-![](https://cctv.cdn.bcebos.com/album/20201206-2.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20201206-2.jpg)
 
 ###### ——By 幾米

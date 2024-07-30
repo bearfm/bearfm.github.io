@@ -35,6 +35,6 @@ Cloudflare在DNSSEC面板中提供了很多值，但没有提供易于复制的D
 	
 然后把上面这些文本粘贴到INWX的DNSKEY RR字段中，因此它看起来像这样：
 
-![](https://cctv.cdn.bcebos.com/album/20200130-1.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20200130-1.jpg)
 
 单击`SAVE`按钮，就算大功告成了。不过这时候，Cloudflare还无法正确识别已配置的域名，这需要一点时间。我们可以沏一杯茶，边看新型冠状病毒的新闻，边等它生效了。

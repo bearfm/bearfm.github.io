@@ -15,7 +15,7 @@ author: 刘看山
 
 自2016年第一篇博客起，这里已经悄悄地运行了 <span id="days"></span> 天，截至 {{ site.time | date: "%Y 年 %m 月 %d 日" }}，不知不觉已经写了 {{ site.posts.size }} 篇随笔杂记，累计起来已经有 {% assign count = 0 %}{% for post in site.posts %}{% assign single_count = post.content | strip_html | strip_newlines | remove: ' ' | size %}{% assign count = count | plus: single_count %}{% endfor %}{% if count > 10000 %}{{ count | divided_by: 10000 }} 万 {{ count | modulo: 10000 }}{% else %}{{ count }}{% endif %} 个字了。
 
-![](https://cctv.cdn.bcebos.com/files/new-about.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/files/new-about.jpg)
 
 三分钟热情的我总是写写、停停、修修、改改，最后不了了之。这里很有可能也会如此。暂且不管能坚持多久，我都希望这个地方是一个自由表达自己的地方。我将在此分享我对相关主题的看法。呃...我甚至还可能分享图片、视频以及其他有趣东西的链接。有人来看，有人评论，简单而有乐趣。每个人都能静静地看文章，都不哗众取宠，不讨好别人。
 

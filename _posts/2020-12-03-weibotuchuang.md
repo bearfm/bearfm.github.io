@@ -17,11 +17,11 @@ author: 文刀刘
 
 4.在`回源设置`中打开回源Host，域名填一个新浪的图床域名，随便哪个都行，比如我填写的是`tva1.sinaimg.cn`，如下图
 
-![](https://cctv.cdn.bcebos.com/album/20201203-1.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20201203-1.jpg)
 
 5.在这个页面下方，也顺便把回源SNI一并设置一下，地址跟前面的`域名地址`地址一样就行。
 
-![](https://cctv.cdn.bcebos.com/album/20201203-2.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20201203-2.jpg)
 
 6.签一个这个图床CDN域名的证书，或者你域名的通配符证书，然后在`HTTPS设置`中把证书添加一下。
 
@@ -35,7 +35,7 @@ author: 文刀刘
 
 1.将图片上传至新浪图床，工具一大堆，你要用Chrome的话在商店随便搜就有，比如我在用的`微博图床`插件。
 
-![](https://cctv.cdn.bcebos.com/album/20201203-3.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20201203-3.jpg)
 
 2.不管你用的什么工具上传，请务必勾选`https`。
 

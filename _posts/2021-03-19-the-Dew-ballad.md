@@ -5,7 +5,7 @@ layout: post
 author: 文刀刘
 ---
 
-![](https://cctv.cdn.bcebos.com/album/20210319.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20210319.jpg)
 
 呢喃晚风吹进来　吹醒谁家小孩　
 
