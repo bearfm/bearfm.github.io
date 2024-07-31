@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mumu.meme/sitemap.xml
+Sitemap: https://9125.net/sitemap.xml
