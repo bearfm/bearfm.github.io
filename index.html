@@ -9,7 +9,7 @@ layout: default
     <h2 class="content-title">
 		  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  </h2>
-    <div class="content-meta"><i class="fa fa-calendar-days"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa fa-user"></i> 文刀刘</div>
+    <div class="content-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%Y-%m-%d" }} · <i class="fa fa-user"></i> 文刀刘</div>
       <p>
         {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read More»</a>
       </p>
