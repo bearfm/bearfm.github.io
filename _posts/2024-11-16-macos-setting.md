@@ -19,12 +19,12 @@ author: 文刀刘
 
 安装后按如下方式设置即可：
 
-![](https://db3.obs.cn-east-4.myhuaweicloud.com/files/new-about.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20241116-1.png)
 
-注意1：MacOS Sonoma 14.6 版本系统（我的本子的系统）需要在 `系统偏好设置->安全性与隐私` 中允许 `Scroll Reverser` 控制您的电脑。
+注意1：MacOS Sonoma 14.6 版本系统（我的本子的系统）需要在 `系统设置->安全性与隐私->辅助功能` 中允许 `Scroll Reverser` 控制您的电脑。
 
-![](https://db3.obs.cn-east-4.myhuaweicloud.com/files/new-about.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20241116-2.png)
 
-注意2：使用当前方法设置时、将系统的滚动方向勾选为 `自然` 。
+注意2：使用当前方法设置时，将系统的滚动方向勾选为 `自然` 。
 
-![](https://db3.obs.cn-east-4.myhuaweicloud.com/files/new-about.jpg)
+![](https://db3.obs.cn-east-4.myhuaweicloud.com/album/20241116-3.png)
