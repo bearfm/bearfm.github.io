@@ -10,7 +10,7 @@ pre,code{padding:.1em;border-radius:.3em;border:1px solid #eee;background:rgb(25
 .l-box{padding:1em}
 .header{margin-bottom:50px;height:350px}
 .banner{position:relative;width:100%;height:100%;overflow:hidden}
-#myVideo{width:100vw;height:100vh;object-fit:cover}
+#myvideo{min-width:100%;min-height:100%;object-fit:cover}
 .brand{margin:0 auto;padding:6.5rem 0 5rem;width:150px}
 .brand a:focus,.brand a:hover{text-decoration:none}
 .nav{margin:0 auto 20px;max-width:800px;border-top:solid 1px;border-bottom:solid 1px;border-image:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 50%,rgba(255,255,255,0) 100%) 1}
