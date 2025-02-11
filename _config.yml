@@ -1,5 +1,5 @@
 ---
-title: 言井故事
+title: Cathay.Blog
 timezone: Asia/Shanghai
 collections:
   posts:
@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 言井故事,9125.net,文刀刘,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
+description: Cathay.Blog,文刀刘,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
 baseurl: ''
-url: https://9125.net
+url: https://cathay.blog
 author:
   name: 文刀刘
-  url: https://9125.net/about/
+  url: https://cathay.blog/about/
   email: 9125@88.com
 markdown: kramdown
 include:
