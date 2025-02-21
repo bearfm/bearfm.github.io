@@ -2,44 +2,18 @@
 layout: default
 ---
 
-<div class="content">
-	<div class="post">
-		<h2 class="post-title center">{{ page.title }}</h2>
-		<div class="post-info">
-			{% if page.date %}
-			<div class="post-meta center">{{ page.date | date: "文刀刘 写于 %Y年%m月%d日" }}</div>
-			{% endif %}
-		<div hidden>言井故事（9125.net）</div>
-		</div>
-		{{ content }}
-	</div>
-	<div hidden>言井故事（9125.net）</div>
-	<div class="pagination">
-		{% if page.next.url %}
-		<a class="pure-button left" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-arrow-left"></i> 上一篇</a>
-		{% endif %}
-		{% if page.previous.url %}
-		<a class="pure-button right" href="{{ page.previous.url | prepend: site.baseurl }}">下一篇  <i class="fa fa-arrow-right"></i></a>
-		{% endif %}
-	</div>
-	<div class="pagination"></div>
-	<div hidden>言井故事（9125.net）</div>
-	<div id="gitalk-container"></div>
-</div>
-<link rel="stylesheet" href="//cdn.jsdmirror.cn/npm/gitalk@1.8.0/dist/gitalk.min.css">
-<script src="//cdn.jsdmirror.cn/npm/gitalk@1.8.0/dist/gitalk.min.js"></script>
-<script>
-  var gitalk = new Gitalk({
-  clientID: '1e39e580bea2c45df802',
-  clientSecret: '275c84d22db23bec34707a8ae321613ed246fe18',
-  repo: 'colinaz.github.io',
-  owner: 'ColinAZ',
-  admin: ['ColinAZ'],
-  id: location.pathname,
-  distractionFreeMode: false
-})
-gitalk.render('gitalk-container')
-</script>
-<link rel="stylesheet" href="//cdn.jsdmirror.cn/npm/gitalk@1.8.0/dist/gitalk.min.css">
-<script type="text/javascript" src="//cdn.jsdmirror.cn/npm/highlight.js@11.10.0/lib/index.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+{% include site-header.html %}
+
+<main class="main  container">
+
+	<article class="article  article--post  content  typeset">
+
+    <h1>{{ page.title }}</h1>
+		{% include post-meta.html %}
+    {{ content }}
+
+  </article>
+
+</main>
+
+{% include site-footer.html %}

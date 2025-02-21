@@ -1,34 +1,35 @@
----
-title: Cathay.Blog
-timezone: Asia/Shanghai
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-description: Cathay.Blog,文刀刘,一个博客树洞。本博客基于Jekyll进行书写。源自生活的点点滴滴和碎碎念。
-baseurl: ''
-url: https://cathay.blog
-author:
-  name: 文刀刘
-  url: https://cathay.blog/about/
-  email: 9125@88.com
-markdown: kramdown
-include:
-- _pages
-sass:
-  sass_dir: _sass
-  style: compressed
-plugins:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-sitemap
-permalink: "/post/:year:month:day.html"
-paginate: 5
+# Set theme
+remote_theme: daviddarnes/garth
+
+# File excludes
 exclude:
+- README.md
 - Gemfile
 - Gemfile.lock
-- muji.gemspec
+
+# Set plugins
+plugins:
+- jekyll-paginate
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-feed
+- jekyll-sitemap
+
+# Site settings
+url: 'https://qiong.me'
+baseurl: ''
+title: '穷.me'
+description: 'This is my new blog'
+permalink: '/post/:year:month:day.html'
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=136"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Collections
+collections:
+  posts:
+    title: Blog
+    output: true
+    description: "There isn't much going on here yet, but watch this space"

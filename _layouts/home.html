@@ -2,25 +2,25 @@
 layout: default
 ---
 
-<main>
-  {% for post in paginator.posts %}
-      <div>
-        <h1 class="catalogue-title"><a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">{{ post.title }}</a></h1>
-        <div class="catalogue-line"></div>
-		<time class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <p>
-          {{ post.content | strip_html | truncate:120 }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
-        </p>
+{% include site-header.html %}
 
-      </div>
-  {% endfor %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow"><i class="fa-solid fa-circle-arrow-left"></i></a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow"><i class="fa-solid fa-circle-arrow-right"></i></a>
-  {% endif %}
-  <span>{{ paginator.page }}</span>
-</div>
+<main class="main  container">
+
+	<div class="content">
+
+    <article class="article  article--page  typeset">
+
+			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+			<h1>{{ collectiondata.title }}</h1>
+
+			{{ collectiondata.description | markdownify }}
+
+    </article>
+
+    {% include post-list.html %}
+
+  </div>
+
 </main>
+
+{% include site-footer.html %}

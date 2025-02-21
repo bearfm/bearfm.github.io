@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://9125.net/sitemap.xml
