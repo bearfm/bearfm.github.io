@@ -2,25 +2,48 @@
 layout: default
 ---
 
-{% include site-header.html %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-background">
+        <img src="{{ site.theme_settings.hero_image | relative_url }}" alt="Hero Background">
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+        <div class="container">
+            <h1 class="hero-title">{{ site.theme_settings.hero_title }}</h1>
+            <p class="hero-subtitle">{{ site.theme_settings.hero_subtitle }}</p>
+            <a href="{{ '/archive' | relative_url }}" class="hero-button">一起去探索吧！</a>
+        </div>
+    </div>
+</section>
 
-<main class="main  container">
-
-	<div class="content">
-
-    <article class="article  article--page  typeset">
-
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<h1>{{ collectiondata.title }}</h1>
-
-			{{ collectiondata.description | markdownify }}
-
-    </article>
-
-    {% include post-list.html %}
-
-  </div>
-
-</main>
-
-{% include site-footer.html %}
+<!-- Featured Articles -->
+<section class="featured-articles">
+    <div class="container">
+        <h2 class="section-title">Journey Journal</h2>
+        <div class="articles-grid">
+            {% for post in site.posts limit:6 %}
+            <article class="article-card">
+                {% if post.featured_image %}
+                <div class="article-image">
+                    <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+                </div>
+                {% endif %}
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-date">{{ post.date | date: '%Y-%m-%d, ' }}</span>
+                        {% if post.category %}
+                        <span class="article-category">{{ post.category }}</span>
+                        {% endif %}
+                    </div>
+                    <h3 class="article-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                    <a href="{{ post.url | relative_url }}"><span class="article-category">阅读全文</span></a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,35 +1,77 @@
-# Set theme
-remote_theme: daviddarnes/garth
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-paginate
-- jekyll-remote-theme
-- jekyll-seo-tag
-- jekyll-feed
-- jekyll-sitemap
-
 # Site settings
-url: 'https://qiong.me'
-baseurl: ''
-title: '穷.me'
-description: 'This is my new blog'
-permalink: '/post/:year:month:day.html'
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=136"
+title: 五更记
+description: 行做笔，心当墨。
+baseurl: ""
+url: "https://5geng.com"
+author: 文刀刘
+email: hello@z.org
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title.html
 
 # Pagination
-paginate: 5
-paginate_path: blog/page:num
+paginate: 6
+paginate_path: "/page/:num/"
 
 # Collections
 collections:
   posts:
-    title: Blog
     output: true
-    description: "There isn't much going on here yet, but watch this space"
+    permalink: /:collection/:title.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+
+# Theme settings
+theme_settings:
+  # Color scheme
+  primary_color: "#ffcc00"
+  text_color: "#333333"
+  background_color: "#ffffff"
+  
+  # Typography
+  heading_font: "Playfair Display, serif"
+  body_font: "Source Sans Pro, sans-serif"
+  
+  # Hero section
+  hero_title: "探索·旅行·新知"
+  hero_subtitle: "One day, I will be able to see the whole world."
+  hero_image: "https://bucket.uicp.cn/blog/wallpaper/202543.jpg"
+  
+  # Social links
+  social:
+    github: "bearfm"
+    twitter: ""
+    instagram: ""
+    email: "hello@z.org"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: "default"

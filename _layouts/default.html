@@ -1,29 +1,134 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		{% if page.collectionpage %}
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-		{% elsif page.title %}
-			<title>{{ page.title }} - {{ site.title }}</title>
-		{% else %}
-			<title>{{ site.title }}</title>
-		{% endif %}
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% seo %}
+    
+    <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="apple-mobile-web-app-title" content="五更记" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="https://bucket.uicp.cn/blog/fav5/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="https://bucket.uicp.cn/blog/fav5/favicon.svg" />
+	<link rel="shortcut icon" href="/fav5/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://bucket.uicp.cn/blog/fav5/apple-touch-icon.png" />
+	<link rel="manifest" href="https://bucket.uicp.cn/blog/fav5/site.webmanifest" />
+    <!-- Feed -->
+    {% feed_meta %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+			<div class="nav-brand">
+                <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-passport logoo"></i>{{ site.title }}</a>
+            </div>
+            <div class="nav-menu">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ '/archive' | relative_url }}">Archive</a>
+				<a href="{{ '/friend' | relative_url }}">Friend</a>
+				<a href="javascript:switchNightMode()" class="menu-link at-night" target="_self"><i class="fa-solid fa-circle-half-stroke"></i></a>
+            </div>
+        </div>
+    </nav>
 
-		<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    <!-- Main Content -->
+    <main class="main-content">
+        {{ content }}
+    </main>
 
-		{% if site.favicon %}
-			<link rel="shortcut icon" href="{{ site.favicon }}">
-		{% else %}
-			<link rel="shortcut icon" href="{{ site.logo }}">
-		{% endif %}
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>{{ site.title }}</h4>
+                    <p>{{ site.description }}</p>
+					<h4>Connect</h4>
+                    {% if site.theme_settings.social.github %}
+                        <a href="https://github.com/{{ site.theme_settings.social.github }}"><i class="fa-brands fa-github"></i></a>
+                    {% endif %}
+                    {% if site.theme_settings.social.twitter %}
+                        <a href="https://mastodon.social/@bearcat"><i class="fa-brands fa-mastodon"></i></a>
+                    {% endif %}
+                    {% if site.theme_settings.social.instagram %}
+                        <a href="{{ '/feed.xml' | relative_url }}"><i class="fa-solid fa-square-rss"></i></a>
+                    {% endif %}
+                    {% if site.theme_settings.social.email %}
+                        <a href="mailto:{{ site.theme_settings.social.email }}"><i class="fa-solid fa-envelope"></i></a>
+                    {% endif %}
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                        <li><a href="{{ '/archive' | relative_url }}">Archive</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    {% if site.theme_settings.social.github %}
+                        <a href="https://github.com/{{ site.theme_settings.social.github }}">GitHub</a>
+                    {% endif %}
+                    {% if site.theme_settings.social.twitter %}
+                        <a href="https://twitter.com/{{ site.theme_settings.social.twitter }}">Twitter</a>
+                    {% endif %}
+                    {% if site.theme_settings.social.instagram %}
+                        <a href="https://instagram.com/{{ site.theme_settings.social.instagram }}">Instagram</a>
+                    {% endif %}
+                    {% if site.theme_settings.social.email %}
+                        <a href="mailto:{{ site.theme_settings.social.email }}">Email</a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-	</head>
-	<body>
-
-		{{ content }}
-
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
-	</body>
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+	<script type="text/javascript">
+		function switchNightMode(){
+			var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+			if(night == '0'){
+				document.body.classList.add('night');
+				document.cookie = "night=1;path=/"
+				console.log('夜间模式开启');
+			}else{
+				document.body.classList.remove('night');
+				document.cookie = "night=0;path=/"
+				console.log('夜间模式关闭');
+			}
+		} (function(){
+			if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
+				if(new Date().getHours() > 21 || new Date().getHours() < 5){
+					document.body.classList.add('night');
+					document.cookie = "night=1;path=/";
+					console.log('夜间模式自动开启');
+				}else{
+					document.body.classList.remove('night');
+					document.cookie = "night=0;path=/";
+					console.log('夜间模式自动关闭');
+				}
+			}else{
+				var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+				if(night == '0'){
+					document.body.classList.remove('night');
+				}else if(night == '1'){
+					document.body.classList.add('night');
+				}
+			}
+		})();</script>
+</body>
 </html>
