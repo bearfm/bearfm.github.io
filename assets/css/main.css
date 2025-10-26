@@ -1,5 +1,4 @@
 *{margin:0;padding:0;box-sizing:border-box}
-@font-face{font-family:'logo';src:url('https://bucket.uicp.cn/fonts/qu.eot');src:url('https://bucket.uicp.cn/fonts/qu.eot?#iefix') format('embedded-opentype'),url('https://bucket.uicp.cn/fonts/qu.woff') format('woff'),url('https://bucket.uicp.cn/fonts/qu.ttf') format('truetype')}
 html{scroll-behavior:smooth}
 body{font-family:'Source Sans Pro',sans-serif;line-height:1.6;color:#333;background-color:#fff}
 .container{max-width:1200px;margin:0 auto;padding:0 20px}
@@ -13,7 +12,7 @@ a{color:#fc0;text-decoration:none;transition:color .3s ease}
 a:hover{color:#e6b800}
 .navbar{position:fixed;top:0;left:0;right:0;background-color:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:3px solid #fc0;z-index:1000;padding:1rem 0}
 .navbar .container{display:flex;justify-content:space-between;align-items:center}
-.nav-brand a{display:inline-block;font-family:'logo',serif;font-size:2rem;font-weight:400;color:#333;line-height:1;width:2.6em;text-indent:-1.3em;overflow:hidden;white-space:nowrap}
+.nav-brand a{display:inline-block;font-family:'Zen Old Mincho',serif;font-size:2rem;font-weight:900;color:#333;line-height:1;width:2.6em;text-indent:-1.3em;overflow:hidden;white-space:nowrap}
 .logoo{color:#333;background:linear-gradient(90deg,transparent 0 30%,#fc0 30% 70%,transparent 70% 100%)}
 .nav-menu{display:flex;gap:2rem}
 .nav-menu a{color:#333;font-weight:600;transition:color .3s ease}
