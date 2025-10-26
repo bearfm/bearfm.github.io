@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=0' | relative_url }}">
     <link rel="icon" type="image/png" href="https://bucket.uicp.cn/blog/fav5/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/svg+xml" href="https://bucket.uicp.cn/blog/fav5/favicon.svg" />
 	<link rel="shortcut icon" href="/fav5/favicon.ico" />
@@ -28,7 +28,7 @@
     <nav class="navbar">
         <div class="container">
 			<div class="nav-brand">
-                <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-passport logoo"></i>{{ site.title }}</a>
+                <i class="fa-solid fa-passport logoo"></i><a href="{{ '/' | relative_url }}">{{ site.title }}</a>
             </div>
             <div class="nav-menu">
                 <a href="{{ '/' | relative_url }}">Home</a>
