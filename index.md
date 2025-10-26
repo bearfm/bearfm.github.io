@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "五更记 —— 行做笔·心当墨"
+title: "去去去旅行(QuQuQu.net) —— 让我们一起走吧！"
 ---
 
 <!-- This file can be used to override the default home page content -->

@@ -9,7 +9,7 @@
     
     <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta name="apple-mobile-web-app-title" content="五更记" />
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
     <!-- Fonts -->
     <link rel="stylesheet" href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
