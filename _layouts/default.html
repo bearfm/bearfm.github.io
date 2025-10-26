@@ -11,10 +11,10 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Dela+Gothic+One&family=Potta+One&family=Klee+One:wght@400;600&family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Klee+One&family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=0.2' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=0.3' | relative_url }}">
     <link rel="icon" type="image/png" href="https://bucket.uicp.cn/blog/fav5/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/svg+xml" href="https://bucket.uicp.cn/blog/fav5/favicon.svg" />
 	<link rel="shortcut icon" href="/fav5/favicon.ico" />
@@ -28,7 +28,12 @@
     <nav class="navbar">
         <div class="container">
 			<div class="nav-brand">
-                <i class="fa-solid fa-passport logoo"></i><a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+                <div class="logo">
+					<a href="/">
+						<svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M583.914 180.39s118.894 6.083 176.169 13.49c57.274 7.408 138.901 24.854 156.896 33.313 17.993 8.459 18.542 27.277 18.542 27.277v31.645l-350.691.594v166.109s129.389 2.652 188.606 10.06c59.219 7.409 154.562 25.517 174.569 32.948 20.007 7.408 24.465 26.889 24.465 35.143v30.729H564.365s-16.119 22.497-100.077 106.501c-83.958 84.003-122.323 118.573-122.323 118.573s-47.26 43.375-54.486 58.189c-7.225 14.816-11.683 37.338 28.9 47.216-.275-.549 371.383-1.099 371.383-1.099h74.493s57.776-2.216 58.942-62.579c.825-43.373-44.47-53.799-44.47-53.799s-18.062-4.938-40.036-1.098c-21.971 3.842-23.916 4.116-28.9 1.098-5.007-3.018-6.95-10.428-6.676-20.854s.822-21.674-12.232-38.434c-13.056-16.759-29.472-22.774-51.147-23.047-21.675-.275-43.374 7.683-43.374 7.683s-2.789 2.193-4.457 2.193c-1.67 0-4.459-2.193-4.459-2.193l-12.232-15.364s-2.584-2.928 0-5.489c2.584-2.56 36.515-44.104 91.182-42.825 54.669 1.281 81.353 28.9 94.521 66.971 1.303 4.391.183 7.498 6.676 7.682 6.494.184 31.873-2.743 56.703 0 24.831 2.744 124.543 20.854 128.978 133.938-1.119 91.664-75.887 141.622-153.441 142.719-77.556 1.099-545.975 0-545.975 0s-150.104 10.152-152.345-91.113c1.12-63.952 61.162-110.892 61.162-110.892L391.968 561.72H49.531v-31.826s2.218-27.711 32.238-35.143c30.021-7.407 129.435-29.564 355.402-41.91V286.732l-350.646-.572v-37.863s2.721-19.983 22.819-24.19c20.097-4.207 83.637-23.596 159.25-33.473 75.612-9.878 165.445-17.949 165.445-17.949V92.637s-.55-17.811 8.872-27.415c9.442-9.603 1.074-5.235 23.595-14.016 22.521-8.78 79.271-23.047 79.271-23.047s19.343-1.669 25.791 3.361 12.05 12.026 12.347 23.504c.273 11.434-.001 125.366-.001 125.366z" fill="#333" data-spm-anchor-id="a313x.search_index.0.i0.78f73a81WCpDjF"/></svg>
+					</a>
+				</div>
+				<a href="{{ '/' | relative_url }}">{{ site.title }}</a>
             </div>
             <div class="nav-menu">
                 <a href="{{ '/' | relative_url }}">Home</a>

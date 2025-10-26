@@ -10,10 +10,11 @@ h4{font-size:1.25rem}
 p{margin-bottom:1rem}
 a{color:#fc0;text-decoration:none;transition:color .3s ease}
 a:hover{color:#e6b800}
-.navbar{position:fixed;top:0;left:0;right:0;background-color:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:3px solid #fc0;z-index:1000;padding:1rem 0}
+.navbar{position:fixed;top:0;left:0;right:0;background-color:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:3px solid #fc0;z-index:1000;padding:.9rem 0}
 .navbar .container{display:flex;justify-content:space-between;align-items:center}
-.nav-brand a{display:inline-block;font-family:'Zen Old Mincho',serif;font-size:2rem;font-weight:900;color:#333;line-height:1;width:2.6em;text-indent:-1.3em;overflow:hidden;white-space:nowrap}
-.logo{display:block;float:left;width:2em;height:2em;background-color:#fc0;border-radius:5px;vertical-align:middle}
+.nav-brand a{display:inline-block;font-family:'Klee One',serif;font-size:2rem;font-weight:400;color:#333;line-height:1.1;width:3em;text-indent:-2em;overflow:hidden;white-space:nowrap;position:relative;transform:translateY(-0.1em);vertical-align: middle}
+.logo{display:block;float:left;width:2em;height:2em;background-color:#fc0;border-radius:5px;vertical-align:middle;margin-right:5px}
+.logo a{width:1.5em;height:1.5em;text-indent:0;font-size:1em;line-height:1;vertical-align:middle;fill:currentColor;overflow:hidden;margin:.3em .25em}
 .nav-menu{display:flex;gap:2rem}
 .nav-menu a{color:#333;font-weight:600;transition:color .3s ease}
 .nav-menu a:hover{color:#fc0}
