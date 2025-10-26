@@ -1,6 +1,5 @@
 *{margin:0;padding:0;box-sizing:border-box}
-@font-face{font-family:wugeng;src:url(https://bucket.uicp.cn/fonts/wgj/logo1.eot);src:url(https://bucket.uicp.cn/fonts/wgj/logo1.eot?#iefix) format('embedded-opentype'),url(https://bucket.uicp.cn/fonts/wgj/logo1.woff) format('woff'),url(https://bucket.uicp.cn/fonts/wgj/logo1.ttf) format('truetype')}
-@font-face{font-family:ji;src:url(https://bucket.uicp.cn/fonts/wgj/logo2.eot);src:url(https://bucket.uicp.cn/fonts/wgj/logo2.eot?#iefix) format('embedded-opentype'),url(https://bucket.uicp.cn/fonts/wgj/logo2.woff) format('woff'),url(https://bucket.uicp.cn/fonts/wgj/logo2.ttf) format('truetype')}
+@font-face{font-family:'logo';src:url('https://bucket.uicp.cn/fonts/qqq.eot');src:url('https://bucket.uicp.cn/fonts/qqq.eot?#iefix') format('embedded-opentype'),url('https://bucket.uicp.cn/fonts/qqq.woff') format('woff'),url('https://bucket.uicp.cn/fonts/qqq.ttf') format('truetype')}
 html{scroll-behavior:smooth}
 body{font-family:'Source Sans Pro',sans-serif;line-height:1.6;color:#333;background-color:#fff}
 .container{max-width:1200px;margin:0 auto;padding:0 20px}
@@ -14,7 +13,7 @@ a{color:#fc0;text-decoration:none;transition:color .3s ease}
 a:hover{color:#e6b800}
 .navbar{position:fixed;top:0;left:0;right:0;background-color:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:3px solid #fc0;z-index:1000;padding:1rem 0}
 .navbar .container{display:flex;justify-content:space-between;align-items:center}
-.nav-brand a{font-family:'ji','wugeng',serif;font-size:2rem;font-weight:400;color:#333;line-height:1}
+.nav-brand a{font-family:'logo',serif;font-size:2rem;font-weight:400;color:#333;line-height:1}
 .logoo{color:#333;background:linear-gradient(90deg,transparent 0 30%,#fc0 30% 70%,transparent 70% 100%)}
 .nav-menu{display:flex;gap:2rem}
 .nav-menu a{color:#333;font-weight:600;transition:color .3s ease}
