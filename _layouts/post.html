@@ -65,28 +65,15 @@ layout: default
 <script src="https://s4.zstatic.net/ajax/libs/disqusjs/3.1.1/disqusjs.es2015.umd.min.js" integrity="sha512-ceYfw5iMK/MSqth7Fcaf1YLS1EJYQ7bhMx4GbZzb3NYS8R9Cq1Iq6tVHd/sO8iNE4xAgj0qM4ud6YABHa1hWGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/disqusjs/3.1.1/styles/disqusjs.min.css" integrity="sha512-BR3efo9v5wWyqUdyELbOOuX3DCZ9gqvNiQ/EQ9cRmBzCRscuRJ3bDxPVZhs2EggH+APRoPaMUq7cdv1AZM23wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
-        function forceDisqusJS() {
-            try {
-                localStorage.setItem('dsqjs_mode', 'dsqjs');
-            } catch (o) {
-            }
-            location.reload();
-        }
         var disqusjs = new DisqusJS({
             shortname: 'piez',
             siteName: "去去去旅行",
-            identifier: "https://quququ.net/{{ page.url }}",
-            url: "https://quququ.net/{{ page.url }}",
+            identifier: "https://quququ.net{{ page.url }}",
+            url: "https://quququ.net{{ page.url }}",
             api: "https://disqus.skk.moe/disqus/",
             apikey: 'twS6uvFUeoIEc6XrvqptsMZ26HVjKZlD3GWczpnaOCr4Z8AzlwBALuGpnyR71PVf',
             admin: '6109',
             adminLabel: 'Mod'
         });
-        function destroyDisqusJS() {
-            disqusjs.destroy();
-        }
-        function renderDisqusJS() {
-            disqusjs.render('#app');
-        }
         renderDisqusJS();
     </script>
