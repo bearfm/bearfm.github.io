@@ -36,7 +36,7 @@ layout: default
 				<p>
 					<cite>若您是文中未署名图片的作者，或认为权益受损，请邮件告知：hello<i class="fa-solid fa-at"></i>z.org，我将及时处理。</cite>
 				</p>
-				<div id="gitalk-container"></div>
+				<div id="disqusjs"></div>
             </div>
         </div>
     </div>
@@ -62,17 +62,31 @@ layout: default
         </div>
     </nav>
 </article>
-<script src="https://s4.zstatic.net/ajax/libs/gitalk/1.8.0/gitalk.min.js" integrity="sha512-Z6q/CxNjbGeWbPamDjp/I737f5LnynAOjJl85FlT75YW3eWmldnn2wj3nhMVEaqMeatyUmvKyfCaM5TND0yRhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script type="text/javascript">
-	var gitalk = new Gitalk({
-		clientID: '1e39e580bea2c45df802',
-		clientSecret: '70d7ff51945137496e075aaf069a2908af30b2e4',
-		repo: 'GitHub repo',
-		owner: 'GitHub repo owner',
-		admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-		id: location.pathname,      // Ensure uniqueness and length less than 50
-		distractionFreeMode: false  // Facebook-like distraction free mode
-		})
-	gitalk.render('gitalk-container')
-</script>
-<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/gitalk/1.8.0/gitalk.min.css" integrity="sha512-0hsIlRjJbiUWaKMhXXNDmjWI2qPvUlhNBLHMhqeF5jIma+bedec27N5FoT2JEeHz5TUmOGCsm1Y89EsX/P0wOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://s4.zstatic.net/ajax/libs/disqusjs/3.1.1/disqusjs.es2015.umd.min.js" integrity="sha512-ceYfw5iMK/MSqth7Fcaf1YLS1EJYQ7bhMx4GbZzb3NYS8R9Cq1Iq6tVHd/sO8iNE4xAgj0qM4ud6YABHa1hWGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/disqusjs/3.1.1/styles/disqusjs.min.css" integrity="sha512-BR3efo9v5wWyqUdyELbOOuX3DCZ9gqvNiQ/EQ9cRmBzCRscuRJ3bDxPVZhs2EggH+APRoPaMUq7cdv1AZM23wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function forceDisqusJS() {
+            try {
+                localStorage.setItem('dsqjs_mode', 'dsqjs');
+            } catch (o) {
+            }
+            location.reload();
+        }
+        var disqusjs = new DisqusJS({
+            shortname: 'piez',
+            siteName: "去去去旅行",
+            identifier: "{{ site.baseurl }}{{ page.url }}",
+            url: "{{ site.baseurl }}{{ page.url }}",
+            api: "https://disqus.skk.moe/disqus/",
+            apikey: 'twS6uvFUeoIEc6XrvqptsMZ26HVjKZlD3GWczpnaOCr4Z8AzlwBALuGpnyR71PVf',
+            admin: '6109',
+            adminLabel: '文刀刘'
+        });
+        function destroyDisqusJS() {
+            disqusjs.destroy();
+        }
+        function renderDisqusJS() {
+            disqusjs.render('#app');
+        }
+        renderDisqusJS();
+    </script>
