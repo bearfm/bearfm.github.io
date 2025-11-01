@@ -65,7 +65,7 @@ a:hover{color:#e6b800}
 .post-body img{max-width:100%;height:auto;border-radius:10px;margin:2rem 0;box-shadow:0 5px 15px rgba(0,0,0,.1)}
 .post-body p:has(>img){display:grid;gap:.5rem;margin:2rem 0}
 .post-body p:has(>img) img{width:100%;height:auto;margin:0!important}
-.post-body p:has(>img) small{margin-top:0;text-align:center;grid-column:1/-1}
+.post-body p:has(>img) small{margin-top:0;color:#9a9a9a;font-size:.7rem;text-align:center;grid-column:1/-1}
 .post-body p:has(>img) small::before{content:'▲';display:inline-block;color:#fd0}
 .post-body p:has(>img:nth-child(2)){grid-template-columns:1fr 1fr}
 .post-body p:has(>img:nth-child(3)){grid-template-columns:1fr 1fr 1fr}
