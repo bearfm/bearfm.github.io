@@ -60,7 +60,7 @@ permalink: /archive/
 .archive-card:hover .archive-image img{transform:scale(1.05)}
 .archive-content-card{padding:1.5rem}
 .archive-meta{display:flex;gap:1rem;margin-bottom:.5rem;font-size:.9rem;color:#666}
-.archive-category{background-color:#fc0;color:#333;padding:2px 8px;border-radius:12px;font-size:.8rem;font-weight:600}
+.archive-category{background-color:#fc0;color:#333;padding:2px 8px;margin-top:-2px;border-radius:12px;font-size:.8rem;font-weight:600}
 .archive-title{font-size:1.25rem;margin-bottom:.5rem}
 .archive-title a{color:#333;transition:color .3s ease}
 .archive-title a:hover{color:#fc0}

@@ -54,7 +54,7 @@ a:hover{color:#e6b800}
 .post-featured-image{max-width:800px;margin:0 auto 2rem;border-radius:10px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1)}
 .post-featured-image img{width:100%;height:auto;display:block}
 .post-meta{display:flex;justify-content:center;gap:1.5rem;margin-bottom:1rem;font-size:.9rem;color:#666}
-.post-category{background-color:var(--primary-color);color:#333;padding:4px 12px;border-radius:15px;font-weight:600}
+.post-category{background-color:var(--primary-color);color:#333;padding:4px 12px;margin-top:-5px;border-radius:15px;font-weight:600}
 .post-title,.page-title{font-size:3rem;margin-bottom:1rem;max-width:800px;margin-left:auto;margin-right:auto}
 .post-subtitle,.page-subtitle{font-size:1.2rem;color:#666;max-width:600px;margin:0 auto}
 .post-content,.page-content{padding:60px 0}
