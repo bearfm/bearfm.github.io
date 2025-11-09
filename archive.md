@@ -56,7 +56,7 @@ permalink: /archive/
 .archive-card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.1);transition:transform .3s ease,box-shadow .3s ease}
 .archive-card:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(0,0,0,.15)}
 .archive-image{height:200px;overflow:hidden}
-.archive-image img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.archive-image img{width:100%;height:100%;margin-top:0;border-radius:0;object-fit:cover;transition:transform .3s ease}
 .archive-card:hover .archive-image img{transform:scale(1.05)}
 .archive-content-card{padding:1.5rem}
 .archive-meta{display:flex;gap:1rem;margin-bottom:.5rem;font-size:.9rem;color:#666}
@@ -65,7 +65,7 @@ permalink: /archive/
 .archive-title a{color:#333;transition:color .3s ease}
 .archive-title a:hover{color:#fc0}
 .archive-subtitle{font-size:1rem;color:#666;margin-bottom:1rem;font-style:italic}
-.archive-excerpt{color:#666;margin-bottom:1rem;line-height:1.5}
+.archive-excerpt{font-size:1rem;color:#666;margin:1rem auto;line-height:1.5}
 .archive-read-more{color:#fc0;font-weight:600;text-transform:uppercase;font-size:.9rem;letter-spacing:.5px}
 .archive-read-more:hover{color:#e6b800}
 @media (max-width:768px){.archive-grid{grid-template-columns:1fr}
