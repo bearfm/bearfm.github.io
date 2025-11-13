@@ -54,13 +54,12 @@ theme_settings:
   # Hero section
   hero_title: "探索·旅行·新知"
   hero_subtitle: "One day, I will be able to see the whole world."
-  hero_image: "https://bucket.uicp.cn/blog/wallpaper/202543.jpg"
+  hero_image: "https://bucket.uicp.cn/blog/wallpaper/light-qiu.avif"
+  hero_image_dark: "https://bucket.uicp.cn/blog/wallpaper/dark-qiu.avif"
   
   # Social links
   social:
     github: "bearfm"
-    twitter: ""
-    instagram: ""
     email: "hello@z.org"
 
 # Defaults
